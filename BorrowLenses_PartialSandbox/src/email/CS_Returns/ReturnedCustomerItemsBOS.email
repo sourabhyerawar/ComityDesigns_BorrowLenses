@@ -1,0 +1,17 @@
+(copy /paste in Subject line) We received something that belongs to you on order [ xxxxxx]
+
+Hi {!Contact.FirstName}, 
+
+Thank you so much for your recent order and for getting everything back to us!
+
+While unpacking your shipment, we noticed that a piece of equipment was included in the returning package that does not appear to belong to us. A [insert customer item]. Of course, we want to get this back to you ASAP, but we do need to get some information from you first. Please fill out the form below* regarding your preferences for how this is to be handled and we will follow up with you shortly after to confirm.
+
+Should you have any questions, please do not hesitate to contact our Customer Service team at (844)-853-6737 ex 2!
+
+Thanks,
+
+{!Case.OwnerFirstName}
+Customer Service Dept.
+BorrowLenses.com
+
+* https://goo.gl/forms/bK0UczaIZYZUSo562

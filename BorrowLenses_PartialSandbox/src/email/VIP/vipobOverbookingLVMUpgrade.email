@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I am sorry we did not have the opportunity to speak via phone in regards to your order XXXXXX.  I have left you a voicemail regarding the [Product] in this order which is “overbooked”- meaning it did not return on time from a prior rental and is not available.  I apologize for this inconvenience and would like to offer you an upgrade at no additional cost to a [alt. product] if that is acceptable to you.  Please contact me at your earliest convenience so I can make the necessary changes to your rental.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

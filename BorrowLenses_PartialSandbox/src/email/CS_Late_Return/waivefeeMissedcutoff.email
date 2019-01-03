@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+The reason UPS hasn’t scanned your package yet could be because it was received after their cut-off time. This means your package will ship out the following day and arrive late to our office.
+
+I can waive the late fee as a one-time exception but, in the future, please make sure to check the cut-off time with your local UPS. It’s crucial to meet these times because a late shipment could mean our next customer in line won’t get their rental on time (or at all!). Here’s a link to more details about returning with UPS: borrowlenses.com/content/return_my_rental
+ 
+Please let me know if you have any other questions about returns. I’m here to help!
+ 
+Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

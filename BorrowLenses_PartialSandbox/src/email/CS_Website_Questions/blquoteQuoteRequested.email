@@ -1,0 +1,19 @@
+Hi {!Contact.FirstName},  
+
+Thank you for contacting BorrowLenses! I am writing in response to your email regarding a possible upcoming rental. Please know that since total costs for orders will depend on:
+
++ the rental item(s) version (we sometimes have multiple generations of a model)
++ the rental duration
++ the shipping carrier and method (we offer different services through UPS and FedEx) or partner pickup location courier fees
++ state taxes, when applicable (to be in compliance, BorrowLenses will apply taxes based on the state the order is delivered to or picked up from)
++ if the optional damage waiver is applied when applicable
+
+we always suggest creating a demo order (which does not require you to create an account and does not require you to confirm any payment information). With the demo order, you can confirm the item(s) version, the needed rental duration, the delivery address state, and options like shipping and the optional damage waiver.
+
+NAME, I hope this information helps to clarify any questions you may have had.
+Please do not hesitate to contact us with any questions or comments in the meantime.
+
+Have a great day,
+ 
+{!Case.OwnerFirstName}
+BorrowLenses Customer Service

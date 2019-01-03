@@ -1,0 +1,9 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for getting in touch! For all inquires about [Insert reason for contact], please email our Marketing department at Marketing@BorrowLenses.com. 
+ 
+Cheers,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

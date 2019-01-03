@@ -1,0 +1,20 @@
+Hi {{{Recipient.FirstName}}},
+<br /> 
+<br /> XXXXXXXXX
+<br /> 
+<br /> 
+<br /> Case Number:&nbsp;{{{Case.CaseNumber}}}
+<br /> 
+<br /> Case Subject:&nbsp;{{{Case.Subject}}}
+<br /> 
+<br /> 
+<br /> Thanks,
+<br /> 
+<br /> {{{Sender.FirstName}}}
+<br /> 
+<b>BorrowLenses</b>
+<br /> {{{Case.Department__c}}}&nbsp;Department
+<br /> {{{Case.Department_Contact_Number__c}}} 
+<address>&nbsp;www.borrowlenses.com</address> 
+<br /> 
+<span style="color:#FFFFFF;">{{{Case.Thread_Id}}}</span>

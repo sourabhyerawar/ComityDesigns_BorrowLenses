@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I wanted to let you know we received your rental back X days early making you eligible for a voucher on a future rental or refund, whichever you'd prefer.  The voucher would be for the amount of $XXX- equivalent to X days of rental time less the damage waivers, taxes and shipping.  Alternatively, the refund would be that amount -25% (totaling $XXX).  Please let me know how you'd like to proceed and I would be happy to assist you.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

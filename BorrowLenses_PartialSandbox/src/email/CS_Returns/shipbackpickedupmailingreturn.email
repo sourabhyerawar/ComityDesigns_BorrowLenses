@@ -1,0 +1,9 @@
+Hey {!Contact.FirstName},  
+
+Thanks for letting us know you’ve shipped back your rental, and for sending the tracking info too. We’ll let you know when your return has been fully processed (it can take a few days or longer depending on how busy we're running so don't worry if you don't hear back right away.) If there’s anything else I can do for you in the meantime, just shout!
+
+Have a good one!
+ 
+{!Case.OwnerFirstName}
+Customer Service Dept.
+BorrowLenses.com

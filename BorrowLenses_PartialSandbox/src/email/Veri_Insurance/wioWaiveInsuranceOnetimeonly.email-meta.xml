@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(wio) Waive Insurance One time only</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+We have looked over your order and your history and we will waive the need for a deposit or insurance for this order as a one time exception. Please note, that if any gear goes missing you will be responsible for the value of the equipment lost.
+
+As far as the dollar value needed for insurance, we cannot divulge that information as it will hinder our fraud prevention practices.
+
+Generally, if you are ordering a lot of gear you should expect to receive a request for a deposit or insurance. Since you are a returning customer we may accept any new policy that you can obtain. The policies we can accept include: photographers insurance, production insurance, or business liability insurance. Homeowners or renters insurance almost never covers rented camera equipment, so generally, those policies won’t work. We highly suggest you look into getting a policy if you intend to want to continue to rent high value rentals such as this order.
+
+Here are the following insurance companies we&apos;ve worked with:
+
+Package Choice
+The Hartford
+Arts &amp; Entertainment Insurance
+Pro Photographer&apos;s Insurance
+InsureMyRentals
+
+Please let us know if you would like me to reinstate your order.
+
+Best,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,17 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<span style="font-family: docs-Calibri; font-size: 15px; white-space: pre-wrap; text-decoration-skip-ink: none;">Hi!
+
+A Customer Support case is assigned to {!Case.OwnerFullName} and has been {!Case.Status} for more than (24) hours! Please make sure to review or update case as necessary.
+
+Case Details:
+Customer: {!Case.Account}
+Case Reason: {!Case.Type}</span><span style="font-family: docs-Calibri; font-size: 15px; white-space: pre-wrap; text-decoration-skip-ink: none;">
+Subject: {!Case.Subject}
+Link to Case: <a href="http://test-borrowlenses--partial.cs94.my.salesforce.com/{!Case.Id}">{!Case.CaseNumber}</a>
+
+Best,
+BL Support Bot</span>]]></td>
+</tr>
+</table>

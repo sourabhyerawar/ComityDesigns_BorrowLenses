@@ -1,0 +1,18 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your email! Believe me, this happens to customers all the time – you’re not alone! I’ll add a note to your order right away. Then all you need to do is mail the missing item(s) back to us at this address:
+
+ Borrowlenses.com (Receiving)
+ ""MISSING ITEMS""
+ 411 Waverley Oaks Road
+ Waltham, MA 02452
+
+Please use a trackable shipping method with either UPS, FedEx or the US post office. Also, please include your order number inside the box and email me the tracking information once you have it.
+ 
+If you have any questions, please let me know!
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

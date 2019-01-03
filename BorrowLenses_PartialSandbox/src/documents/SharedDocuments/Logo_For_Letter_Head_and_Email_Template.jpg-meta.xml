@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>Borrow Lenses Logo</keywords>
+    <name>Logo For Letter Head and Email Template</name>
+    <public>true</public>
+</Document>

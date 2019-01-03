@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(icp) Incompatibility</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+The lens you have selected is incompatible with the _____.  As stated on the site, the EF-M lens is only compatible with the EOS-M camera body.  Please select only EF or EF-S lens, as these will both mount with your camera.  Please let me know which lens you would like to swap for, and I can adjust your rental, as well as re-send an updated invoice.  If you need assistance in making a selection, we are happy to help.
+
+Thank you,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

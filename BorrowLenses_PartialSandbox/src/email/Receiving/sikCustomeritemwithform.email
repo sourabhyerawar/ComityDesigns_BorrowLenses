@@ -1,0 +1,22 @@
+SUBJECT: We found something of yours in order $incidents.c$order_number2
+ 
+Hi {!Contact.FirstName},  
+ 
+Thanks for your recent order!
+ 
+While checking in your rental, we noticed you’ve accidentally returned your [XXXXXXX]. I’d love to ship this back to you ASAP! Please fill out the following form to quicken the process:
+ https://docs.google.com/a/shutterfly.com/forms/d/e/1FAIpQLSfy-SdZkFhCWN3PzoNKwO8EztnyNjtkrEXYcMLpN89BVkgPhw/viewform?c=0&w=1
+ 
+ Your billing address is listed as:
+ <<Billing Address>>
+ 
+ Your delivery address is listed as:
+ <<Delivery Information>>
+ 
+I’ll send you the tracking number once your item has shipped out. Thanks for your cooperation!
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Receiving Department
+ BorrowLenses.com

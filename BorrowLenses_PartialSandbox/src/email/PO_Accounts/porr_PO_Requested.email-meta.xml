@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BL_Support_Letterhead</letterhead>
+    <name>(porr) PO Requested</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName}, 
+
+
+Thanks for your recent inquiry about purchase order invoicing! To set up your corporate account, we’ll need the following:
+
+1. The email address registered at BorrowLenses.com. If approved, we’ll apply the PO option to this account.
+2. Purchase Order application (attached)
+3. Tax Exemption form (if applicable)
+4. Certificate of Insurance (if applicable)
+
+Once we have this information, it’ll take 3-5 business days to determine whether purchase order is granted. 
+
+Please let me know if you have any questions, or if there’s anything else I can do to help.
+
+Thanks,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Purchase Order Accounts
+accounts@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

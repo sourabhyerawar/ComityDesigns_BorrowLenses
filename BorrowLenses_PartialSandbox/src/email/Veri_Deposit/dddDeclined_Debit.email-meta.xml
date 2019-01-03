@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(ddd) Declined - Debit</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+I wanted to let you know that we tried to take a deposit authorization this morning, but your card was unfortunately declined. This is probably due to the low daily purchase limits on debit cards. You can adjust this by calling the customer service number on the back of your card and requesting an increase to your daily purchase limit. To keep this order on time, you’ll need to handle this by 4pm (your time zone). 
+
+Please let me know when we can try the deposit again. I look forward to hearing from you soon!
+
+Thanks,
+ 
+ {!Case.OwnerFirstName}
+ BorrowLenses.com Verifications Team
+ verify@borrowlenses.com
+ (844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I wanted to let you know I have created a voucher for your [ERC/Issue] on order XXXXXX.  This voucher is a good on any future order with us for the amount of $XXX.XX using the code “XXxxxxx".  The code does not expire and does not have to be used all at once.  If you have any questions at all as to how the voucher works, or if you have any general questions please do not hesitate to contact me directly!
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

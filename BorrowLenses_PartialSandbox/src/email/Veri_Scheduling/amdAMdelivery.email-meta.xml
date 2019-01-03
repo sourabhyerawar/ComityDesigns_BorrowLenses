@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(amd) AM delivery</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+I noticed in your order notes that you would prefer your equipment to arrive before ____.  We may be able to upgrade your shipping to an AM delivery, Depending on your zip code items generally arrive by 10:30am, but it can rarely be as late as noon.  The cost for this service is an additional $20 per box.  Otherwise, the shipment may arrive at any time during business hours, occasionally up-to, or later than 7pm.  To do this we MUST hear back from you by 1:00 PM PST (4:00 EST) Please let me know if you would like to upgrade your shipping method.  If we don&apos;t hear back from you we will ship for standard delivery.
+
+Thank you,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

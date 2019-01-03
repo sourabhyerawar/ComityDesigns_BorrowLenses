@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your email! I checked through our existing coupons and couldn’t find the discount you mentioned. This is probably because most of our coupon codes are time sensitive. Also, many 3rd-party sites list codes that were never created by our company.
+ 
+When we offer discounts, you can find them on our official Facebook page, blog and in our newsletter. Currently, we’re not running any promotions other than our annual BorrowLenses Membership.
+ 
+If you’re interested, here’s a link to more info on our membership rewards: www.borrowlenses.com/product/services/Membership100
+
+I hope this helps! If there’s anything else I can do for you, just let me know.
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

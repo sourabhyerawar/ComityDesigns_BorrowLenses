@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},  
+
+I am sorry we did not have the opportunity to speak via phone in regards to your order XXXXX.  I have left you a voicemail regarding your order which has a XXXX that may be incompatible with the XXXX you've rented from us. 
+
+Please contact me at your earliest convenience to confirm that this choice was intentional, or I would be happy to offer a substitute.  If there is anything else I can assist you with please feel free to contact me.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(cf) CF Pin Technical Info</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+  
+Thanks for your reply! You may want to double check your CF cards for misaligned contacts, debris or grit lodged in the holes, or any other damage that might affect insertion.
+  
+Before and after each item is rented, we run a thorough inspection to make sure each camera has a full set of pins and is fully operational.
+  
+In every CF assembly, there are 4 pins designated for frame ground (2 center, 1 top-left, 1 bottom-right) that are slightly longer than their neighbors. These are designed to fail first in the event of a damaged/dirty CF card being inserted. The 3 remaining ground pins should allow for normal function, as long as the failed pin isn&apos;t short-circuiting any of the communication pins.
+  
+I’m now sending the unit out for repair. Please let me know if you have any questions!
+
+Regards,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Repair Team
+Repair@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

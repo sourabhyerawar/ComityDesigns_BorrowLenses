@@ -1,0 +1,10 @@
+Hi {!Contact.FirstName},  
+ 
+I’m reaching out about your order [XXXXXX]. I wanted to let you know it will be available for pick up after 12PM on XX-XX, due to items being transferred from our Boston warehouse. You’ll get a confirmation email once the rental is ready to be picked up.
+
+Please email me back if you have any questions!
+ 
+Best,
+ 
+ {!Case.OwnerFirstName}
+ BorrowLenses Customer Service

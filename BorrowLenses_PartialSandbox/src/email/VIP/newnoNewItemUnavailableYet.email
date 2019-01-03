@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thank you for renting with us [again]! I wanted to contact you regarding your order [#XXXXX] with us.  Due to shipping delays from our vendor the [NEW ITEM] and associated lenses will likely not arrive in time for your ship date.  I apologize for this inconvenience and would like to propose an option of shipping this item out as soon as it is available [DATE ESTIMATE] I wish I could give you a more precise date but that information is unclear at this time.  Please contact me at your earliest convenience so I can make the necessary changes to your rental.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

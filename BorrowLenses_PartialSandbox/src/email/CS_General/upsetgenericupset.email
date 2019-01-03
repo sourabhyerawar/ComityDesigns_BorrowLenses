@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+I’m so sorry to hear that you had trouble with your rental! In order to offer you compensation, our billing department requires us to reproduce the reported issues. Once your rental returns to us, I’ll have our gear techs inspect the items inside and out for any problems.
+
+If you haven't already, please email me a clear description of the gear settings and type of environment you were in when you experienced the problems. I’ll pass this on to the gear techs, so they can best replicate the issues. Once they’ve finished their investigation, I’ll be in touch about how to move forward.
+
+In the meantime, if you have any other questions, please let me know. I’m your go-to person until this matter is resolved!
+ 
+ Kindly, 
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

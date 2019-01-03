@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I am sorry we did not have the opportunity to speak via phone in regards to your order XXXXXX.  I have left you a voicemail to inform you that there has been a UPS delay in the shipment of your rental.  I apologize for this huge inconvenience and wanted to let you know we will be sending a replacement order at no extra cost via overnight shipping and rerouting the original package.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

@@ -1,0 +1,10 @@
+Hi {!Contact.FirstName},  
+
+While reviewing your order, we noticed that you have a slider without a fluid head. We wanted to see if you have your own fluid head or if you wanted to add one to your order. If you would like to make any changes to your order, we'll need to hear from you by 1pm PT. Thanks!
+
+Best,
+
+{!Case.OwnerFirstName}
+Video Customer Service Dept. 
+Video@BorrowLenses.com
+(844) 853-6737 x3

@@ -1,0 +1,18 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for emailing – I’m happy to help troubleshoot!
+
+The XXXX promotion has a few requirements. Could you please try the steps below and let me know if the code applies to your order? 
+ 
+ 1. Select a duration equal to 3 days or more and proceed to checkout.
+ 2. Select an arrival date on or before XXXX and click checkout, which will prompt you to login. 
+ 3. Enter the code into the ""promo code/gift certificate"" field using all capital letters, as codes are case sensitive. 
+ 4. Once you enter the code, press ""apply"" on the right. The page should refresh and show a message saying the code was applied. 
+ 
+Hopefully this works for you now! Please let me know if there’s anything else I can do to help.
+ 
+ Thanks,
+
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

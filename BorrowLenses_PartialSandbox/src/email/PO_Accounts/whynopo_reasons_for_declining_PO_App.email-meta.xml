@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BL_Support_Letterhead</letterhead>
+    <name>(whynopo) - reasons for declining PO App</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I understand this news can be disappointing – please let me explain.
+
+After evaluating your application, our accounting department determined that we’re unable to allow [XXX ] to order on credit. Payment by invoicing is reserved for very large rental orders, and is further based on a number of factors, including business size and years in existence. Ultimately, the decision lies with our insurance underwriters. Unfortunately, I can’t offer any more details since I can’t see exactly what went into the underwriters’ decision.
+
+I’d still like to accommodate your rental request, so please let me know if there’s anything else I can do to help!
+
+Kindly,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Purchase Order Accounts
+accounts@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

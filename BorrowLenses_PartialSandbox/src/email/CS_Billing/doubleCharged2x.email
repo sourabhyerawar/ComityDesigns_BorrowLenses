@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your email! I looked into the charge on our payment system. What you’re seeing is a pending authorization hold resulting from a placed or attempted reservation. Our payment system is required to access your banking account each time to ensure funds are available and to confirm your billing information. On the day the equipment ships from our warehouse, the funds transfer from your account to ours.
+ 
+When the authorization hold remains, that’s because the bank think you’re trying to make a transaction. They may hold the funds to prevent your card from overdrafting, much like a reservation placed with a hotel. 
+ 
+Some banks will release the funds immediately or within 24 hours, while others will hold the amount for 3-5 business days. However, these funds will always return to your account. 
+ 
+I hope this helps clarify things! Please let me know if there’s anything else I can do to help.
+ 
+ Thanks,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

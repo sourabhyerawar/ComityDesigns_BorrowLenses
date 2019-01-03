@@ -1,0 +1,17 @@
+Hi {!Contact.FirstName},  
+ 
+When returning your recent order [xxxxxx], you expressed some concerns about [xxxx]. I wanted to let you know that our gear techs tested the item and easily replicated the issue you reported. We have removed the item from our inventory and sent it to our repair team for further evaluations. 
+ 
+I’m happy to reimburse you for the damaged item. I can issue either a refund to your card or a coupon code for your next rental with us.
+
+If you’d like a refund, I can take care of that right away. You should see the credit on your account as soon as your card provider processes the request. 
+ 
+If you’d prefer a coupon for your next rental, I can email you a custom code. You’d use this code in the coupon section during checkout on our website.
+
+Please let me know how you’d like to be reimbursed. Also, thanks for your patience while we looked into this for you!
+ 
+Best,
+
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your email! I completely understand your concerns and am happy to say your rental will be arriving on [DATE] as scheduled, per the latest update on UPS’s tracking info. 
+ 
+Sometimes, it can take up to 24 hours for UPS tracking to update after a package leaves our warehouse. However, as of now, our records show your rental will be delivered [DAY/DATE] as scheduled. 
+
+I hope this helps to ease any concerns. If you have any other questions, please let me know – I’m happy to help!
+ 
+ Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

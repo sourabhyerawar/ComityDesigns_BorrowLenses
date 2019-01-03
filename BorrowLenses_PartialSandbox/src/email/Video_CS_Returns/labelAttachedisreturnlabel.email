@@ -1,0 +1,10 @@
+Hi {!Contact.FirstName},  
+
+Attached is your return label. 
+
+Best,
+
+{!Case.OwnerFirstName}
+Video Customer Service Dept. 
+Video@BorrowLenses.com
+(844) 853-6737 x3

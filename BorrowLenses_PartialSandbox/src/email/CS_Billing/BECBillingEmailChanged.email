@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+I double checked to confirm your account with the username: [XXXXXXXXX]
+ 
+The email you received confirms that you updated the billing email address through your online account with us. We’ll now send order invoices and other important communications to this email address. 
+ 
+Please let me know if you have any other questions and have a great day!
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

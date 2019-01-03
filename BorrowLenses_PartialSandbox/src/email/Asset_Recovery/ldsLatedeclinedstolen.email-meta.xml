@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(lds) Late, declined, stolen</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>SUBJECT: Borrowlenses.com - Order ##### - Late, Declined and Stolen - RESPONSE REQUIRED
+ 
+Dear {!Contact.FirstName}, 
+
+Your order is unpaid and considerably late, and your card has been declined! Please immediately return our equipment, or else we’ll be forced to take civil and criminal action.
+ 
+Please call us ASAP at 844-853-6737 ext. 5 so we can resolve this urgent matter.
+
+Note in Section 5 of our Lease Agreement:
+ 
+Lessee is responsible for all costs associated with any repair or replacement (without deduction for depreciation) of the Equipment necessitated as a result of Lessee’s usage, possession, transportation or failure to return the Equipment for any reason, including, without limitation, as a result of the negligence or willful misconduct of Lessee, its employees, agents, or contractors.
+ 
+You can reference the full Lease Agreement here: www.borrowlenses.com/content/rental_agreement
+
+Regards,
+ 
+ {!Case.OwnerFirstName}
+ Asset Recovery Department
+ 844-8-LENSES (844-853-6737) x5</textOnly>
+    <type>html</type>
+</EmailTemplate>

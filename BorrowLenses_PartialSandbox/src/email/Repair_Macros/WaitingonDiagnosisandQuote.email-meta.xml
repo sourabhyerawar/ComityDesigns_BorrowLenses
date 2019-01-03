@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(w4q) Waiting on Diagnosis and Quote</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+  
+Thanks for your reply! The item will be reviewed by our repair department to see if the damage can be fixed in-house, or if it will need to go to a 3rd-party repair facility. Once the item is back, I’ll send you an email with the repair diagnosis and, if necessary, the total amount owed. If you owe repair fees, I’ll ask for your payment information at that time – we appreciate you responding within 5 days of any payment request. 
+  
+For more information about damage and GearGuard, please refer to that section on our help page (borrowlenses.com/content/damage_waiver) or review the Equipment Lease Agreement (borrowlenses.com/content/rental_agreement). 
+  
+Thanks for your continued patience as we process your repair!
+
+ Regards,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Repair Team
+Repair@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

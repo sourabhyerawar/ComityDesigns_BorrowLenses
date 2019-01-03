@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thank you for renting with us!  You may find a return label for your order on the "My Account" tab on our website under the "Order History" section.  From there you can print a label corresponding to any order currently out to you.  If there is anything else I can assist you with please feel free to contact me directly.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

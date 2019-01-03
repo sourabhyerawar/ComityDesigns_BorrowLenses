@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(cua) Cancelled, underage</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+ 
+Thanks for your interest in renting with us! Unfortunately, we can’t move forward with your order at this time because you’re under 18. I have voided the authorization placed on your card when you confirmed the order. This may take 3-5 days to clear with your bank. 
+
+All our renters must be 18 or older in order for our lease agreements to be legally binding. To move forward with your rental, it would need to be ordered, paid for and picked up by someone who is over 18. 
+ 
+I’m really sorry for the inconvenience. Please let me know if you have any questions!
+ 
+Best,
+ 
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

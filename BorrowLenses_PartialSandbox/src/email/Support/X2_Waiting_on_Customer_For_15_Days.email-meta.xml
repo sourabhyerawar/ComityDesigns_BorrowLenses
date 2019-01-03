@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case has been in Waiting on Customer for 15 days, send an auto reminder email alert to the Customer (if the Opt-Out is false).</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>2. Waiting on Customer For 15 Days</name>
+    <style>freeForm</style>
+    <subject>Looking for a follow up on your BorrowLenses Support Case: {!Case.CaseNumber}</subject>
+    <textOnly>Heya {!Contact.FirstName},
+
+Just a quick reminder that we are working on your case and need a few more details from you. We’re reaching out because it looks like we have not heard back from you since our last email.
+
+Case ID: {!Case.CaseNumber}
+Case Subject: {!Case.Subject}
+
+
+As a heads up, &lt;b&gt;this case will be closed&lt;/b&gt; in 15 days if we don’t hear back from you.  
+
+Regards,
+
+{!Case.OwnerFirstName} 
+&lt;b&gt;BorrowLenses&lt;/b&gt; 
+{!Case.Department__c}
+{!Case.Department_Contact_Number__c}
+www.borrowlenses.com
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+</EmailTemplate>

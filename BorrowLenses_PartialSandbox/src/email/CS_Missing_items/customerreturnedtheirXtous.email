@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thanks for letting us know about your [XXXX]. I’ve made notes to your account and our gear techs are on the case. Once they find it, we’ll return it to you ASAP and charge the shipping to your card on file. (If you’d like to use a different card for this payment, let me know.)
+
+One last thing: can you please confirm the shipping address for us to return your gear? I want to make sure it safely gets home.
+
+I’ll follow up with you as soon as I get an update from receiving. In the meantime, let me know if you have any questions. I’m your go-to person until this gets resolved!
+
+Thanks,
+
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

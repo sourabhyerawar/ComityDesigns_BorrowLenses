@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(cvr) Custome Verification Reminder</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+ 
+I just tried calling you but the number we have on file belonged to someone else. I wanted to let you know that the verification is still pending on your order. Please refer to our previous emails and get back to us ASAP, so we can make sure your order goes out on time. If we can’t verify your order in time, the shipment will be delayed.
+
+Please feel free to email or call me directly with any questions. I look forward to hearing back from you!
+ 
+ Best,
+ 
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+Verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

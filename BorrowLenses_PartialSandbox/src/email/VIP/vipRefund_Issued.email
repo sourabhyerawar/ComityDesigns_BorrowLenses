@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},  
+
+First and foremost, I apologize for the inconvenience and frustration caused by [issue] on your order.  I wanted to let you know I have refunded (XX.XX) due to [issue] on your rental [XXXXXX] Transaction ID:________ .
+
+You should see these funds returned to your account ending in (XXXX) within the next several business days.  Please note that this amount of time may vary depending on the swiftness of your bank/credit card company.  If you have any questions at all regarding this refund or if you have any general questions please do not hesitate to contact me directly!
+
+Thanks,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

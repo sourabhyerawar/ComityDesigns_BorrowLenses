@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(cint) Cancelled, international card</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+ 
+Thanks for your interest in renting with us! Unfortunately, we’ve had to cancel this order because we don’t accept that type of card. To move forward with your order, we’ll need a US-based credit or debit card on file for payment. I have voided the authorization placed on your card when you confirmed the order. This may take 3-5 days to clear with your bank. For more information, take a look at our Help page under the &quot;&quot;Billing&quot;&quot; section. (https://www.borrowlenses.com/content/billing) Please get in touch if you have any questions – I’m happy to help!
+
+Best,
+ 
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

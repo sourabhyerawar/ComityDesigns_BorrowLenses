@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+It was great speaking with you today! As I mentioned in our phone call, we’ll gladly let someone else pick up your order. Please fill out this authorization form and I’ll add it to your account: www.borrowlenses.com/uploads/newsletters/image/pickup_authorization.pdf
+ 
+If there’s anything else I can do to help, just shout!
+ 
+Cheers,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

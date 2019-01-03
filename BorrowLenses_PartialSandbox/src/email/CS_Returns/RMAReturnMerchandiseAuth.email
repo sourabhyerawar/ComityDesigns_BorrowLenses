@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I’m sorry to hear that you’re unhappy with your purchase! We’ll gladly reimburse you for it.
+
+For quick return processing, please fill out the attached form and slip it into the box. Once you’ve postmarked it with your chosen carrier, email us the tracking number and our warehouse team will expect its arrival. After a quick final inspection, we’ll confirm your refund.  
+
+Let me know if you have any questions at all.  
+
+Warmly, 
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

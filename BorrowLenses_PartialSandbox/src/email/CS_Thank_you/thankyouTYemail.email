@@ -1,0 +1,9 @@
+Hi {!Contact.FirstName},  
+ 
+You’re very welcome! We’re always happy to help. If you ever need anything, just give us a shout. I hope you have a great week and enjoy your rental!
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

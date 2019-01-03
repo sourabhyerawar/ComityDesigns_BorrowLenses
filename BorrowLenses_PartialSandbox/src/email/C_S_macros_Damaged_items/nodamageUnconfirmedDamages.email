@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+I’m writing about your order XXXX and the trouble you experienced with the (product name). After completing a full diagnostic test, our gear techs were unable to replicate the issues. It’s possible that the (insert problem) was caused by (speculate reason), which would explain why our results differed from your experience. 
+
+We’ll continue to monitor the equipment over the next few days and record your experience in our product records. If we find that the (product name) is functioning outside of the manufacturer standards, we’ll contact you with additional details. 
+ 
+Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

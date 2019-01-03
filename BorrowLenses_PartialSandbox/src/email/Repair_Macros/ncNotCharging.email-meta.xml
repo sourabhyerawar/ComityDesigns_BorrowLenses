@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(nc) Not Charging</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+  
+When an order returns with damaged items, we contact the customer for information that helps us choose the best course of action for repair. After further examining the [XXXXX], we’ve determined that you’re not at fault. Therefore, you aren’t responsible for any repair or replacement fees for this item. I’ve marked your order complete and your account continues to be in good standing.
+
+Thanks for all your patience and cooperation with this issue – I really appreciate it! Please let me know if you have any other questions.
+
+We look forward to working with you in the future!
+  
+ Best,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Repair Team
+Repair@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

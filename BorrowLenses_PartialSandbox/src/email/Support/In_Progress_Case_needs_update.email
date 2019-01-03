@@ -1,0 +1,15 @@
+Hi!
+</br>
+</br>
+A Customer Support case is assigned to {!Case.OwnerFirstName} and has been {!Case.Status} for more than (SLAvalue) hours! Please make sure to review or update case as necessary.
+</br>
+</br>
+<b>Case Details:</b></br>
+Customer: {!Case.Account}</br>
+Case Reason: {!Case.Type}</br>
+Subject: {!Case.Subject}</br>
+Link to Case: {!Case.Link}</br>
+</br>
+</br>
+Best,</br>
+BL Support Bot

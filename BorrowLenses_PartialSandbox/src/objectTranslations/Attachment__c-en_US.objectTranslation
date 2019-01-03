@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Private Attachment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Private Attachments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Private Attachments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Holds the created date/time of the recently uploaded attachment. --></help>
+        <label><!-- Latest Attachment Uploaded Date/Time --></label>
+        <name>Latest_Attachment_Uploaded_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Attachments --></label>
+        <name>Number_of_Attachments__c</name>
+    </fields>
+    <layouts>
+        <layout>Attachment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+
+I’m sorry but an extension isn’t possible at the moment because all the [XXXX] in our inventory are booked for your requested times. A later shipment may mean that our next customer won’t get the item they reserved. I apologize for the inconvenience and thank you for understanding.
+ 
+If you have any questions, or if there’s anything else I can do to help, please let me know!
+ 
+ Thanks,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

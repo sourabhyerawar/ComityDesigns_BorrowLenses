@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thank you for renting with us!  I wanted to contact you to notify you that your rental will not be available for pickup in San Carlos until after [approximate time] due to [reason].  I apologize for the inconvenience and will personally contact you as soon as your rental is ready for pickup.  Should you have any questions or concerns in the interim please do not hesitate to contact me.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

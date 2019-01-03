@@ -1,0 +1,12 @@
+Hi {!Contact.FirstName},  
+
+Our technicians recently finished testing your order and were unable to recreate the issues you experienced. XXXX TEST RESULTS XXXX. We just wanted to share their test results. 
+
+Let us know if you have any questions!
+
+Best,
+
+{!Case.OwnerFirstName}
+Video Customer Service Dept. 
+Video@BorrowLenses.com
+(844) 853-6737 x3

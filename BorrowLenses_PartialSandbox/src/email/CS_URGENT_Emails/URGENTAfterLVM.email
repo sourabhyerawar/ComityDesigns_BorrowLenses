@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+I’m emailing about an urgent matter with your order, after trying to reach you by phone. We need to make some changes to your order, but would like to confirm them with you first. I’ve left you a detailed voicemail describing the necessary changes. Please call us as soon as possible or email me back to let us know how you’d like to proceed.
+
+If you don't have access to your voicemail, let me know ASAP and I’ll email you the details. I appreciate your quick response and understanding!
+ 
+Thanks,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

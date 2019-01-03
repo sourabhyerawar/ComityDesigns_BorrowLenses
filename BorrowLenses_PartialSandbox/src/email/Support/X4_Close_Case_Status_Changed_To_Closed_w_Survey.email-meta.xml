@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Informs to Customer when Case Status is Closed w Survey.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>4. Close Case - Status Changed To Closed w Survey</name>
+    <style>formalLetter</style>
+    <subject>BorrowLenses Support Case Closed! : {!Case.CaseNumber}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+
+
+You asked and we’ve answered! While this isn’t farewell forever, we do want to let you know that we’ve closed your case for now. If we’ve missed something, reply back and we’ll get right on it. Have another question? Just email us at {!Case.Department_Email__c} !
+
+
+Case Number: {!Case.CaseNumber}
+
+Case Subject: {!Case.Subject}
+
+
+Loved our support or not so much? Let us know what you think with our quick survey! 
+https://www.getfeedback.com/r/O9hgN3CI?Case_ID={!Case.Id}&amp;Case_Account_ID={!Case.AccountId}&amp;Case_Contact_ID={!Case.ContactId}
+
+
+
+Cheers,
+
+
+
+{!Case.OwnerFirstName}
+
+BorrowLenses
+
+{!Case.Department__c} Department
+
+{!Case.Department_Contact_Number__c}
+
+www.borrowlenses.com
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+</EmailTemplate>

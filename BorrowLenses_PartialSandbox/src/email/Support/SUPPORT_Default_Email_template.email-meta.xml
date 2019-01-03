@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EXTERNAL: Email to Customer default</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>SUPPORT: Default Email template</name>
+    <style>freeForm</style>
+    <subject>{!EmailMessage.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+
+
+XXXXXXXXX
+
+
+
+Case Number: {!Case.CaseNumber}
+
+Case Subject: {!Case.Subject}
+
+
+
+Thanks,
+
+
+
+{!Case.OwnerFirstName} BorrowLenses {!Case.Department__c} Department {!Case.Department_Contact_Number__c}
+
+www.borrowlenses.com
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+</EmailTemplate>

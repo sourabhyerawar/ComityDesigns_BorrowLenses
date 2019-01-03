@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(pob) PO Box no go</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+Unfortunately, UPS will not deliver packages to a PO Box. However, we can ship to a physical address or a UPS location where hold services are offered. Please use the following link,  to find a &quot;UPS store&quot;  or &quot;UPS customer center&quot; location: 
+
+https://www.ups.com/dropoff
+
+Please let us know ASAP to where you would like to have your gear shipped to.
+
+Best,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

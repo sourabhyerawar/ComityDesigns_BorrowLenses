@@ -1,0 +1,14 @@
+/*
+	@ PURPOSE : 1. FILTERS THE PERSON ACCOUNTS.
+				2. CHECKS THE IF THE EMAIL DOMAIN OF PERSON ACCOUNT IS AVAILABLE IN BAD RECORDS.
+				3. CONVERT PERSON ACCOUNT TO BUSINESS ACCOUNT AND REPARENTS BUSINESS CONTACT TO MASTER BUSINESS ACCOUNT.
+				4. DELETES THE RECENTLY CONVERTED BUSINESS ACCOUNT ( INSERTED PERSON ACCOUNT ).
+*/
+Trigger AccountTrigger on Account ( After Insert ) {
+	
+    if( Trigger.isAfter ) {
+        if( Trigger.isInsert ) {
+            AccountTriggerHandler.tryConvertPaToBaAndBc( Trigger.New );
+        }
+    }
+}

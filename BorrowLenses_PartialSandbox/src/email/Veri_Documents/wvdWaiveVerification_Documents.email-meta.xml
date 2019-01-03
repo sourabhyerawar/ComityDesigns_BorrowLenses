@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(wvd) Waive Verification- Documents</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+ 
+Earlier, we sent you an email requesting verification documents. I wanted to let you know that we’ve gone ahead and waived verification for this particular order, so you can disregard that email. However, feel free to upload the documents to your account at your convenience, as they may be required for future orders. 
+
+Regards,
+ 
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+Verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

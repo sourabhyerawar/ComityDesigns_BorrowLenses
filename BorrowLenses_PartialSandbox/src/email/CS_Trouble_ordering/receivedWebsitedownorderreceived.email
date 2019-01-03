@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+I’m so sorry to hear you were having trouble with our website! We were running system updates earlier today, so I apologize for any confusion this may have caused. I can confirm that we received an order for you. I have emailed you a copy of your invoice – please take a look and make sure everything is as it should be. 
+
+If there’s anything else I can do for you, please let me know!
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

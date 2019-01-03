@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(ucb) Upload correct bill</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+Thanks for sending us your verification documents! However, it appears we’re still missing an official document that associates your name with the billing address (XXXXXXX INSERT BILLING ADDRESS XXXXXXX). This could be any document that officially lists your billing address, like a utility bill, phone bill, bank statement, lease agreement or car registration. Please upload this document ASAP to make sure your order ships on time.
+
+Thanks and I look forward to hearing back from you soon!
+
+ 
+Best,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+Verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

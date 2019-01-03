@@ -1,0 +1,49 @@
+<p>&nbsp;</p>
+<div class="setupTab" style="background-color: #ffffff; beditid: b1st1; blabel: body;"><center><br />
+<table width="500" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td style="background-color: #333232; beditid: r1st1; blabel: header; vertical-align: top; height: 100; text-align: center;" colspan="1" rowspan="1"><img src="https://borrowlenses.my.salesforce.com/servlet/servlet.ImageServer?id=0151I000001i0jA&amp;oid= 00D1I000002xB0t" border="0" /></td>
+</tr>
+<tr style="display: none;" valign="top">
+<td style="background-color: #ffffff; beditid: r2st1; blabel: accent1; height: 0;" colspan="1" rowspan="1">&nbsp;</td>
+</tr>
+<tr valign="top">
+<td style="background-color: #ffffff; beditid: r3st1; color: #000000; blabel: main; font-size: 12pt; font-family: arial;" colspan="1" rowspan="1" height="300">
+<table border="0" width="550" cellspacing="5" cellpadding="5">
+<tbody>
+<tr valign="top">
+<td style="background-color: #ffffff; beditid: r3st1; color: #000000; blabel: main; font-size: 12pt; font-family: arial;" colspan="1" rowspan="1">
+<p dir="ltr" style="color: #000000; font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: #ffffff;"><span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap; font-size: 12pt;"><span style="font-family: arial, Helvetica, sans-serif;">Hi {!Contact.FirstName},</span></span></p>
+<p dir="ltr" style="color: #000000; font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: #ffffff;"><span style="font-family: arial, Helvetica, sans-serif; font-size: 12pt;">&nbsp;</span></p>
+<span style="font-size: 12pt;">&nbsp;</span>
+<p dir="ltr" style="color: #000000; font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: #ffffff;">&nbsp;</p>
+<p dir="ltr" style="color: #000000; font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: #ffffff;">&nbsp;</p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: #ffffff;"><span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; font-size: 12pt;"><span style="font-family: arial, Helvetica, sans-serif;"><span style="white-space: pre-wrap;">Regards,</span></span></span></p>
+<p dir="ltr" style="color: #000000; font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: #000000;"><span style="font-size: 12pt;">{{{Sender.FirstName}}}</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: #000000;"><span style="font-family: arial, Helvetica, sans-serif; font-size: small;"><span style="white-space: pre-wrap;"><strong>BorrowLenses</strong></span></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: #000000;"><span style="font-size: 14px;">{{{Case.Department__c}}}&nbsp;</span><span style="font-family: arial, Helvetica, sans-serif; font-size: small;"><span style="white-space: pre-wrap;">Department</span></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: #000000;"><span style="font-size: 14px;">{{{Case.Department_Contact_Number__c}}}</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: #000000;"><span style="font-family: arial, Helvetica, sans-serif; font-size: small;"><span style="white-space: pre-wrap;"><a href="http://www.borrowlenses.com" target="_blank" shape="rect">www.borrowlenses.com</a></span></span>​​​​​​​</p>
+<p dir="ltr" style="color: #000000; font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: #ffffff;"><span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><span style="font-family: arial, Helvetica, sans-serif; font-size: small;">Case ID: {{{Case.CaseNumber}}}</span></span></p>
+<p dir="ltr" style="color: #000000; font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt;"><span style="color: #ffffff;">{{{Case.Thread_Id}}}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr valign="top">
+<td style="background-color: #ffffff; beditid: r4st1; blabel: accent2; height: 1;" colspan="1" rowspan="1">&nbsp;</td>
+</tr>
+<tr valign="top">
+<td style="background-color: #ffffff; beditid: r5st1; blabel: footer; vertical-align: top; height: 100; text-align: left;" colspan="1" rowspan="1">&nbsp;</td>
+</tr>
+<tr valign="top">
+<td style="background-color: #ffffff; beditid: r6st1; blabel: accent3; height: 1;" colspan="1" rowspan="1">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</center></div>
+<p><br clear="none" /><img src="http://test-borrowlenses--Partial.cs94.my.salesforce.com/servlet/servlet.ImageServer?oid=00D0R000000928N&amp;esid=0180R000000G13i" /> <br clear="none" />&nbsp;</p>

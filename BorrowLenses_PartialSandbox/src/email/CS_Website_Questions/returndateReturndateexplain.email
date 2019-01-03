@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+Your return by date is the last day of your rental period. Your rental must be returned to your local UPS/FedEx (whichever you chose during checkout) before their last truck leaves for the day. 
+
+Please make sure to check your carrier’s postmark cut-off times before returning your rental and ask for a receipt. A receipt gives you peace of mind. If your order begins tracking later than expected or, worst case scenario, gets lost, your receipt will prove the carrier is responsible for any late fees or replacement costs. 
+
+Please let me know if you have any other questions, or if there is anything else I can do to help!
+ 
+ Thanks, 
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

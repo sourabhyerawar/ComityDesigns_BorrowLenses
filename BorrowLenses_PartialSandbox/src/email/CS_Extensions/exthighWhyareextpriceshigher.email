@@ -1,0 +1,17 @@
+Hi {!Contact.FirstName},  
+
+Thanks for getting in touch about extensions.
+
+Adding an extension is essentially like placing a new order, since it involves prep time and inventory adjustments to make it work. 
+
+When a customer asks for an extension at the end of their rental, we check the calendar to make sure it won’t conflict with another customer’s order. If there’s a reservation directly after yours, then we have to adjust their order and find another available item.
+
+For longer extensions, we offer a deduction from the gear’s true rental rate as a courtesy for customers who let us know well in advance.
+
+Hope this sheds some light on our different extensions. Let me know if you have any more questions – I’m here to help!
+
+Best, 
+
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

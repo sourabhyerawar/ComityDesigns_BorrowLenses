@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for emailing us back! I reviewed your tracking info with UPS and it appears that your package didn’t make the cut-off time at your local hub. When this happens, the package will ship out the following day when the next truck arrives at the facility. Of course, we do understand that some packages may not make the truck, despite making the cut-off time. 
+ 
+If you can give us a copy of your receipt (your instruction sheet and return reminder email ask you to get a return receipt at drop off), then we can waive the late fees. If you don’t have a receipt, we can extend your rental to help you avoid late fees. The cost for a 1-day extension on your current reservation is $XX.XX. 
+
+Please let me know if you have a receipt that I can upload to your account or if you’ll need an extension. 
+ 
+If you have any questions, please let me know! I’m happy to help.
+ 
+Thanks,
+
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

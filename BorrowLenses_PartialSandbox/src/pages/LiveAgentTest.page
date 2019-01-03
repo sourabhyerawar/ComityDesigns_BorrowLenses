@@ -1,0 +1,128 @@
+<apex:page showHeader="false" sidebar="false" cache="false">
+    <style>
+        .chatText {
+            font-family: Verdana, Arial, sans-serif;
+            font-size: 12px;
+            font-weight: normal;
+            text-decoration: none;
+            line-height: 40px;
+        }
+        .chatText.online:hover {
+            color: #e40000;
+        }
+        .backgoundWhite {
+            background-color: white;
+        }
+    
+    </style>
+    <!-- Libraries -->
+    <!-- JQuery - Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+    <!-- LiveAGent Code --> 
+    <!-- Deployment Code -->
+    <script type='text/javascript' src='https://c.la2-c1cs-ord.salesforceliveagent.com/content/g/js/44.0/deployment.js'></script>
+    <script type='text/javascript'>
+        liveagent.setChatWindowWidth(600);
+        liveagent.setChatWindowHeight(725);
+        liveagent.init('https://d.la2-c1cs-ord.salesforceliveagent.com/chat', '5720R000000005Z', '00D0R000000928N');
+    </script>
+    <div id="support-server-status" style="padding: 20px !important; background: white !important; border-radius: 5px;"> 
+        <span style="font-weight: bold; display: none;">Section - Chat Links: (now hidden)</span>
+        <!-- <br /> -->
+        <!-- Customer Support -->
+        <!--
+        <a id="liveagent_button_online_5730R00000000At" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5730R00000000At')"></a>
+        <div id="liveagent_button_offline_5730R00000000At" style="display: none;"></div>
+        -->
+        <div id="liveagent_button_online_5730R00000000At" style="display: none;"></div>
+        <div id="liveagent_button_offline_5730R00000000At" style="display: none;"></div>
+        <!-- <br /> -->
+        <!-- Gearhead Button -->
+        <!--
+        <a id="liveagent_button_online_5730R00000000Ay" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5730R00000000Ay')"></a>
+        <div id="liveagent_button_offline_5730R00000000Ay" style="display: none;"></div>
+        -->
+        <div id="liveagent_button_online_5730R00000000Ay" style="display: none;"></div>
+        <div id="liveagent_button_offline_5730R00000000Ay" style="display: none;"></div>
+        
+        
+        <!-- <br /> -->
+        <div style="display: none;">
+            <span style="font-weight: bold">Debugging Section - Status</span><br />
+            <div id="cs_status"></div>
+            <div id="gh_status"></div>
+            <div id="select_status"></div>
+        </div>
+        
+        <!-- <br /> -->
+        <span style="font-weight: bold">Partial Sandbox - Liveagent Chat Test</span><br /><br />
+        <select id="chatSelect">
+            <option id='emptyOption'>-- No Agents Available --</option>
+        </select>
+
+        <button id="chatButton" onclick="chatButtonOnClick()" disabled="disabled">Chat</button>
+        
+        <script type="text/javascript">
+          var $j = jQuery.noConflict();
+          
+          if (!window._laq) { window._laq = []; }
+            window._laq.push(function(){
+              liveagent.showWhenOnline('5730R00000000At', document.getElementById('liveagent_button_online_5730R00000000At'));
+              liveagent.showWhenOffline('5730R00000000At', document.getElementById('liveagent_button_offline_5730R00000000At'));
+              
+              liveagent.showWhenOnline('5730R00000000Ay', document.getElementById('liveagent_button_online_5730R00000000Ay'));
+              liveagent.showWhenOffline('5730R00000000Ay', document.getElementById('liveagent_button_offline_5730R00000000Ay'));
+              
+              setInterval(function(){ logCSValue();logGHValue();resetEmptyChatSelect(); }, 2000);
+          });
+          
+          function logCSValue() {
+              var csValTemp = $j('#liveagent_button_online_5730R00000000At').css('display');
+              if(csValTemp === 'inline' || csValTemp === 'block'){
+                  $j('#cs_status').text('CS Agents Online');
+                  if($j('#chatSelect option#csOption').length == 0){
+                      $j('#chatSelect').append('<option id="csOption">Transaction / Order Help</option>');
+                      $j('#chatSelect option#emptyOption').remove();
+                      $j('button#chatButton').prop('disabled',false);
+                  }
+              } else {
+                  $j('#cs_status').text('CS Agents Offline');
+                  $j('#chatSelect option#csOption').remove();
+              }
+          }
+          function logGHValue() {
+              var ghValTemp = $j('#liveagent_button_online_5730R00000000Ay').css('display');
+              if(ghValTemp === 'inline' || ghValTemp === 'block'){
+                  $j('#gh_status').text('Gearheads Online');
+                  if($j('#chatSelect option#ghOption').length == 0){
+                      $j('#chatSelect').append('<option id="ghOption">Gear Support</option>');
+                      $j('#chatSelect option#emptyOption').remove();
+                      $j('button#chatButton').prop('disabled',false);
+                  }
+              } else {
+                  $j('#gh_status').text('Gearheads Offline');
+                  $j('#chatSelect option#ghOption').remove();
+              }
+          }
+          function resetEmptyChatSelect() {
+              if($j('#chatSelect option').length == 0){
+                  $j('#chatSelect').append('<option id="emptyOption">-- No Agents Available --</option>');
+                  $j('button#chatButton').prop('disabled',true);
+              }
+          }
+          function chatButtonOnClick() {
+              var optionVal = $j('select#chatSelect').find(':selected').attr('id');
+              if(optionVal == 'csOption') {
+                  liveagent.startChat('5730R00000000At');
+              } else if (optionVal == 'ghOption') {
+                  liveagent.startChat('5730R00000000Ay');
+              } else {
+                  alert('Invalid Option!');
+              }
+              $j('#select_status').text($j('select#chatSelect').find(':selected').text());
+          }
+        </script>
+    </div>
+</apex:page>

@@ -1,0 +1,17 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<span style="font-family: docs-Calibri; font-size: 15px; white-space: pre-wrap; background-color: rgb(255, 255, 255);">Hi BLLT! 
+ 
+Uh oh, I was looked-over. Please find me a friend; I need a little love!: {!Case.Link} 
+ 
+Case Details:
+Customer: {!Case.Account}
+Subject: {!Case.Subject}
+ 
+ 
+Best,
+BL Support Bot
+</span><div><span style="font-family: docs-Calibri; font-size: 15px; white-space: pre-wrap; background-color: rgb(255, 255, 255);"><br></span></div>]]></td>
+</tr>
+</table>

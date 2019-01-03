@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(ciu) Cancelled, insurance underwriter</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+ 
+Unfortunately, your order was flagged by our insurance underwriter as too risky to proceed. I’m sorry but we won’t be able to process any orders from you now or in the future. I have voided the authorization placed on the card used to confirm the order. This may take 3-5 business days to clear with your bank. 
+ 
+Per our lease agreement (paragraph 8) we’re declining your request to rent. I’m sorry that I can’t offer more details, as I’m unable to see exactly what went into the underwriter’s decision.  
+ 
+ Kindly,
+ 
+ {!Case.OwnerFirstName}
+ BorrowLenses.com Verifications Team
+ verify@borrowlenses.com
+ 1-844-853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

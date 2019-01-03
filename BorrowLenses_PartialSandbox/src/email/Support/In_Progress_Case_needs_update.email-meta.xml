@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>In Progress Case needs update</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>In Progress Case needs update</name>
+    <style>none</style>
+    <subject>Case {!Case.CaseNumber} needs update</subject>
+    <textOnly>Hi!   
+
+A Customer Support case is assigned to {!Case.OwnerFirstName} and has been {!Case.Status} for more than (SLAvalue) hours! Please make sure to review or update case as necessary.   
+
+Case Details: 
+Customer: {!Case.Account} 
+Case Reason: {!Case.Type} 
+Subject: {!Case.Subject} 
+Link to Case: {!Case.Link}   
+
+Best, 
+Support Bot</textOnly>
+    <type>custom</type>
+</EmailTemplate>

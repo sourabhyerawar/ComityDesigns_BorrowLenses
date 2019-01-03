@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+Our records indicate that your package was postmarked by UPS on [XXXXXX] and we have processed a payment for the extra days through this date. Your order is now complete and your account in good standing. To make further adjustments to your account, we’d need a copy of your return receipt to compare with UPS’s postmarking schedule. If the receipt shows that your package was dropped off before the postmarking time, we’ll credit your account accordingly. Feel free to email me back with a photo of your return receipt, if you have one.
+
+And if you have any questions, just shout! 
+
+Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

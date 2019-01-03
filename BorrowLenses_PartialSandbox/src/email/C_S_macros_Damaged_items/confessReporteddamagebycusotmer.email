@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your email and honesty about what happened to your rental. I really appreciate it.
+
+Once the gear returns to our warehouse, our repair team will assess the level of damage and reach out to you to discuss either the repair or replacement costs. 
+ 
+If you purchased the damage waiver for your rental, per the contract, you’ll be responsible for the repair cost up to 12% of the purchase price. If you didn’t get the damage waiver, you’ll be responsible for the full repair or replacement cost, whichever is cheaper (either way, our team will do all they can to keep any costs down).
+
+Please let me know if you have any questions. I’m your go-to person until the repairs team gets in touch!
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

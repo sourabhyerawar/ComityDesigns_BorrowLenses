@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thank you for renting with us [again/for the first time].  Enclosed [IS/ARE] the image[s] of the complimentary Pelican Case[s] included in your rental.  I have attached [this/these] for your reference and convenience upon return of the rental to us.  Should you have any questions at all about this rental please don't hesitate to contact me directly.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

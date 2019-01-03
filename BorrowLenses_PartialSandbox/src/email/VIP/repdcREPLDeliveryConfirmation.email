@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+First and foremost I wanted to apologize for the [issues] affecting [parent order XXXXXX].  I also wanted to make sure that everything else is going smoothly with your replacement order [XXXXXX].  Of course if there is anything else I can assist you with or you have questions regarding these orders please feel free to contact me directly.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

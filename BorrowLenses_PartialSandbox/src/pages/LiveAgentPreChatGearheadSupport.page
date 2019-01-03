@@ -1,0 +1,156 @@
+<!-- VF Page Name: LiveAgentPreChatGearheadSupport-->
+<!-- Purpose: Custom Pre-Chat page for Live Agent Chat -->
+
+<apex:page id="thePage" showHeader="false" sidebar="false" title="Support Pre-Chat" standardStylesheets="true">
+
+    <apex:stylesheet value="{!URLFOR($Resource.Libraries, '/bootstrap/css/bootstrap.css')}" /> 
+    <apex:includeScript value="{!URLFOR($Resource.Libraries, '/jquery/js/jquery-2.2.3.min.js')}" />
+    <!-- Visualforce Page CSS -->
+    <apex:stylesheet value="{!URLFOR($Resource.LiveAgentResource, '/css/LiveAgent.css')}"/>
+
+    <!-- Visualforce Page JAVASCRIPT -->
+    <apex:includeScript value="{!URLFOR($Resource.LiveAgentResource, '/js/liveAgent.js')}"/>
+
+    <style>
+        .headerContainer {
+            background-color: black !important;
+        }
+        .customBtn {
+            background-color: #E1050A !important;
+            border: 1px solid #E1050A !important;
+            font-family: Futura, "Trebuchet MS", Helvetica Neue,Helvetica,Arial,sans-serif;
+            border-radius: 0px !important;
+        }
+        .customBtn:hover {
+            background-color: #E1050A !important;
+            border: 1px solid #E1050A !important;
+        }
+    </style>
+
+     <form id="prechatForm" method="post">
+      <!-- Header -->
+      <div class="headerContainer container-fluid" align="center">
+        <div align="center" style="padding:10px;">
+          <apex:image height="50px" url="https://cdn.static-bl.com/images/png/BL_LogoWShadow.png" />
+        </div>
+        <div class="row" style="padding:30px;">
+          <p class="headerTitle">Chat with Our Gearheads</p>
+          <p class="headerSubTitle">Expert advice to help you plan the perfect shoot.</p>
+        </div>
+      </div>
+
+      <!--START: Customer Input Form Div -->
+      <div class="formContainer container-fluid">
+        <!-- START: Body Section for Input Form -->
+        <div class="bodydiv">
+         <!-- Row for apex:messages -->
+         <div class="row">
+           <apex:outputPanel id="opmsgs">
+            <apex:messages styleClass="msgs" id="pgmsgs" title="Error Messages" />
+           </apex:outputPanel>
+         </div>
+         <!-- START: Row Section for input fields -->
+         <div class="row" >
+           <!-- START: Column Section to display input fields-->
+           <div class="col-md-12" style="margin-left: 5px;margin-right: 10px;">
+              <!-- Header information message -->
+                <div class="containerInfo">
+                 Looking for a suggestion? Unsure how two cameras line up? Our photo and video gearheads are here to help with expert advice, just tell us what you need a hand with!
+                 <br/>
+                </div>
+              <!-- Required field display -->
+              <div align="right" class="requiredInfo">* = required field
+              </div>
+
+
+              <!-- User enters Subject here -->
+              <div class="form-group">
+                <label class="labelWithLimit">
+                  <b>What can we help you with?</b>
+                </label>
+                <div align="right" class="requiredInfo">Limit: 255 characters
+                </div>
+                <div class="requiredInput">
+                  <textarea
+                    class="form-control"
+                    name="liveagent.prechat:Case Subject" 
+                    id="subject"
+                    maxlength="254"
+                    placeholder="Give us a head start on how to help." />
+                  <div class="requiredError" id="subjectError" style="display:none">
+                    Give us a head start on how to help.
+                  </div>
+                </div>
+              </div>
+                    
+              
+
+              <!-- Create a Case every time -->
+              <!-- Map the Case Origin and Status to the proper values during Implementation -->
+              <input type="hidden" name="liveagent.prechat:Case Origin" value="Chat"/>
+              <input type="hidden" name="liveagent.prechat:Case Status" value="In Progress"/>
+
+              <!-- Map Live Agent Origin, Status fields to the respective Case fields -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.map:Case" 
+               value="Origin,Case Origin;Status,Case Status;Subject,Case Subject;Order_Number__c,OrderNumber"/>
+
+              <!-- Create a new Case -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Case" 
+               value="Origin,true;Status,true;Subject,true;"/>
+
+              <!-- Save transcript to the Case which is created -->   
+              <input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Case" 
+               value="Case"/>
+               
+              <!-- Show the Case when it is found or created in a SubTab -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Case" 
+               value="true"/>
+               
+
+              <!-- Button to submit chat request to Live Agent and open Chat window -->
+              <div align="center">
+                <input class="customBtn" type="submit" value="Start Chat" id="prechat_submit" onClick="validateSubject(); if(validationError == true) return false;"/>
+              </div>
+           <!-- END: Column Section for input fields -->
+           </div>
+         <!-- END: Row Section for input fields -->
+         </div>
+        <!-- END: Body section of Input Form -->
+        </div>
+      <!-- END: Custom Input Form Div-->
+      </div>
+     </form>
+
+
+  <script type="text/javascript">
+    $j(document).ready(function(){
+
+      // Pre-Chat API Documentation //
+      // SFDC function which handles pre chat form submission //
+      (function() { 
+        function handlePageLoad() {
+          var endpointMatcher = new RegExp("[\\?\\&]endpoint=([^&#]*)");
+          document.getElementById('prechatForm').setAttribute('action',
+          decodeURIComponent(endpointMatcher.exec(document.location.search)[1]));
+        } 
+        if (window.addEventListener) {
+          window.addEventListener('load', handlePageLoad, false);
+        } 
+        else { 
+          window.attachEvent('onload', handlePageLoad, false);
+        }
+      })();
+    });
+    
+    var validationError = false;
+    function validateSubject() {
+        if($j('#subject').val() == '') {
+            $j('#subjectError').show();
+            validationError = true;
+        } else {
+            $j('#subjectError').hide();
+            validationError = false;
+        }
+    }
+  </script>
+</apex:page>

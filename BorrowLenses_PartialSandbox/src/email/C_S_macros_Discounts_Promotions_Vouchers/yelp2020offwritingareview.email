@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for writing a Yelp review about your experience with BorrowLenses! As a token of our appreciation, here’s a 20% off code for your next rental. 
+  
+ [CODE HERE]
+  
+Fine print: Expires on 12/31/17 at 11:59 PM PST. Orders must be delivered or picked up by 1/1/18. Not eligible for existing orders, For Sale items, Gift Certificates, Aquatech products, or BL Memberships. BorrowLenses rental orders only ship to U.S. addresses in the 50 United States and the District of Columbia. Renters must possess a U.S. credit card. This code is for rentals only, is not transferable, is not valid on items for purchase, and cannot be combined with other discount codes.
+ 
+ We look forward to working with you again!
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

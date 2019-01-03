@@ -1,0 +1,13 @@
+Hi %firstname%,
+ 
+Thanks for sending us your tax exemption form! I’ve added this to your account so future rentals will be tax free. Since your form was submitted after the start of your rental, I wasn’t able to remove tax from this order, including any potential extensions. Our financial department has to report all order payments immediately, requiring us to pay tax on your current order.
+
+The good news is you can get reimbursed for this tax by submitting the receipt to your accountant. He or she can file these forms with your yearly taxes. And in case you ever lose your emailed receipts, we keep a copy on file for you. Simply go to the “My Account” section of our website and click on “Order History” – you can download all receipts from there. 
+ 
+Please let me know if there’s anything else I can do for you!
+  
+Cheers,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

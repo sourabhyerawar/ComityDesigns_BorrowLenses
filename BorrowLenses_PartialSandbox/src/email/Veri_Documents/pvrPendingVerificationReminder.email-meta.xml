@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(pvr) Pending Verification Reminder</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+  
+I wanted to let you know that your order won’t ship out today, due to pending verifications. To ensure on time shipping, all documents need to be uploaded and follow up emails answered by 4:30pm EST. Since these requests weren’t met by your ship date, your order will roll to the next day. Please know that you’ll be responsible for any additional overnight fees.
+ 
+If you have any questions, feel free to email or call me directly – I’m here to help!
+ 
+Thanks,
+ 
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

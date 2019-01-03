@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(iidr) Initial Insurance/deposit request</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+ 
+Thanks for your order! Because of the high retail value of the gear you’d like to rent, we’ll need you to provide one of the following:
+
+• Proof of outstanding liability, property or business insurance covering the rental gear. 
+Or,
+• A deposit in the amount of the gear’s replacement cost: $XXX.
+ 
+If you prefer to show proof of insurance, please call your agent and get BorrowLenses.com listed as loss payee and additional insured for the rental gear. Unfortunately, we can’t accept brand new policies created for the purpose of this rental. Once the certificate is complete, please upload it to your account for review. We’ll call your agent to verify its validity and the length of time you’ve been their client. We do this to ensure the legitimacy of the form and security of our gear.
+
+(Please note that if you purchased our optional damage waiver insurance, you’ll be protected against accidental damage during your rental period, limiting your liability to a deductible of 12% of the item&apos;s replacement value. However, this optional damage waiver doesn’t meet the item’s additional requirements. To insure this rental against both accidental damage and/or complete loss or theft, we require proof of an existing 3rd-party photographer or production insurance policy for this order. If you elect to use a 3rd-party insurer, and have added our liability insurance to your order, we’ll gladly help remove this product from your order.)
+ 
+If you’d prefer to do a deposit, we’ll simply hold the amount on your card and release it in full once the gear is returned to us. This won’t place a full-on charge, just an authorization hold, but the funds for the full deposit must be available in your account. If you’d like to use a different card for the deposit, that’s fine as long as the name and billing address match the name and billing address on your reservation.
+ 
+I look forward to processing your rental request, so please let me know how you’d like to proceed!
+ 
+Thanks,
+ 
+ {!Case.OwnerFirstName}
+ BorrowLenses.com Verifications Team
+ verify@borrowlenses.com
+ (844) 853-6737 x4
+ 
+PLEASE NOTE:
+To make sure your order ships on time, all verification documents need to be uploaded with any follow-up emails answered by 4pm (your time zone) or 2:30pm for overnight shipments. If you don’t make this cut-off time, we’ll roll your order to the next day and any additional overnight fees will need to be paid by you.</textOnly>
+    <type>html</type>
+</EmailTemplate>

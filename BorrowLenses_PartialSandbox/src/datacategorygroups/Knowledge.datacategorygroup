@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Auto-Extension</label>
+                <name>Auto_Extension</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Extension</label>
+                <name>Extension</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Late Fees</label>
+                <name>Late_Fees</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Bills</label>
+                <name>Bills</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payment Plan</label>
+                <name>Payment_Plan</name>
+            </dataCategory>
+            <label>Collection</label>
+            <name>Collection</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Customer items</label>
+                <name>Customer_items</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Missing Main Item(s)</label>
+                <name>Missing_Main_Item_s</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Missing Subpart(s)</label>
+                <name>Missing_Subpart_s</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Stolen Items</label>
+                <name>Stolen_Items</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lost Shipment</label>
+                <name>Lost_Shipment</name>
+            </dataCategory>
+            <label>Asset Recovery</label>
+            <name>Asset_Recovery</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Returns</label>
+                <name>Returns</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Ratings</label>
+                <name>Ratings</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Warranties / Policies</label>
+                <name>Warranties_Policies</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Included Items</label>
+                <name>Included_Items</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Replacement / Product Swap</label>
+                <name>Replacement_Product_Swap</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Adjusting Existing Orders</label>
+                <name>Adjusting_Existing_Orders</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Troubleshooting</label>
+                <name>Troubleshooting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Bugs &amp; Troubleshooting</label>
+                <name>Bugs_Troubleshooting</name>
+            </dataCategory>
+            <label>Used Gear</label>
+            <name>Used_Gear</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Bugs &amp; Troubleshooting</label>
+                <name>Bugs_Troubleshooting_Shipments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Courier Information</label>
+                <name>Courier_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Delays / Missed Deliveries</label>
+                <name>Delays_Missed_Deliveries</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Hold at Locations &amp; Fees</label>
+                <name>Hold_at_Locations_Fees</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lost / Stolen Packages</label>
+                <name>Lost_Stolen_Packages</name>
+            </dataCategory>
+            <dataCategory>
+                <label>3rd Party Returns</label>
+                <name>X3rd_Party_Returns</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Drop-Boxes</label>
+                <name>Drop_Boxes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Methods</label>
+                <name>Methods</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Weekends</label>
+                <name>Weekends</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Re-routing</label>
+                <name>Re_routing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Creating Labels</label>
+                <name>Creating_Labels</name>
+            </dataCategory>
+            <label>Shipments</label>
+            <name>Shipments</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Bugs &amp; Troubleshooting</label>
+                <name>Bugs_Troubleshooting_LocalDelivery</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Courier Information</label>
+                <name>Courier_Information_LocalDelivery</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Deliveries</label>
+                <name>Deliveries</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Returns</label>
+                <name>Returns_LocalDelivery</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Replacements</label>
+                <name>Replacements</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Weekend</label>
+                <name>Weekend</name>
+            </dataCategory>
+            <label>Local Delivery</label>
+            <name>Local_Delivery</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Business Information</label>
+                <name>Business_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Delayes</label>
+                <name>Delayes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Alternate Returns</label>
+                <name>Alternate_Returns</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Hold at Locations &amp; Fees</label>
+                <name>Hold_at_Locations_Fees_Affiliate</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Methods</label>
+                <name>Methods_Affiliate</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Weekend</label>
+                <name>Weekend_Affiliate</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Re-routing</label>
+                <name>Re_routing_Affiliate</name>
+            </dataCategory>
+            <label>Affiliate &amp; Headquarter locations</label>
+            <name>Affiliate_Headquarter_locations</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Bugs &amp; Troubleshooting</label>
+                <name>Bugs_Troubleshooting_Payments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>General Information</label>
+                <name>General_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Declines</label>
+                <name>Declines</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Updating / Swapping Payment</label>
+                <name>Updating_Swapping_Payment</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Vouchers</label>
+                    <name>Vouchers</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Refunds</label>
+                    <name>Refunds</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Approval Process</label>
+                    <name>Approval_Process</name>
+                </dataCategory>
+                <label>Reimbursements</label>
+                <name>Reimbursements</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Extensions &amp; Fees</label>
+                <name>Extensions_Fees</name>
+            </dataCategory>
+            <label>Payments / Reimbursements</label>
+            <name>Payments_Reimbursements</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Uploading / Emailing Documents</label>
+                <name>Uploading_Emailing_Documents</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pick Up Authorization</label>
+                <name>Pick_Up_Authorization</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Damage Waiver</label>
+                <name>Damage_Waiver</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Deposit</label>
+                <name>Deposit</name>
+            </dataCategory>
+            <dataCategory>
+                <label>3rd Party Insurance</label>
+                <name>X3rd_Party_Insurance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Renter DB</label>
+                <name>Renter_DB</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Tax Exemption</label>
+                <name>Tax_Exemption</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payment Not Valid</label>
+                <name>Payment_Not_Valid</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cancellation Dispute</label>
+                <name>Cancellation_Dispute</name>
+            </dataCategory>
+            <label>Order Verification</label>
+            <name>Order_Verification</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Trends</label>
+                <name>Trends</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Account Edits</label>
+                <name>Account_Edits</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Deleting Accounts</label>
+                <name>Deleting_Accounts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Update Ship Address / Location / Method</label>
+                <name>Update_Ship_Address_Location_Method</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cancellations &amp; Fees</label>
+                <name>Cancellations_Fees</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Order Statuses</label>
+                <name>Order_Statuses</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Order Edits</label>
+                <name>Order_Edits</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Returns</label>
+                <name>Returns_Account</name>
+            </dataCategory>
+            <dataCategory>
+                <label>International Travel</label>
+                <name>International_Travel</name>
+            </dataCategory>
+            <dataCategory>
+                <label>VIP</label>
+                <name>VIP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Replacements</label>
+                <name>Replacements_Account</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Extensions</label>
+                <name>Extensions</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Extension Requested</label>
+                <name>Extension_Requested</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Added / Removed Product</label>
+                <name>Added_Removed_Product</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Special Requests</label>
+                <name>Special_Requests</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exceptions &amp; Approvals</label>
+                <name>Exceptions_Approvals</name>
+            </dataCategory>
+            <label>Account &amp; Order Assistance</label>
+            <name>Account_Order_Assistance</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Referals</label>
+                <name>Referals</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Gift Certificates</label>
+                <name>Gift_Certificates</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Global Discounts</label>
+                <name>Global_Discounts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sku Discounts</label>
+                <name>Sku_Discounts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Shipping Discounts</label>
+                <name>Shipping_Discounts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Free Day Promotions</label>
+                <name>Free_Day_Promotions</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Social Media Promotions</label>
+                <name>Social_Media_Promotions</name>
+            </dataCategory>
+            <label>Promotions</label>
+            <name>Promotions</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Benefits</label>
+                <name>Benefits</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BL Rewards</label>
+                <name>BL_Rewards</name>
+            </dataCategory>
+            <dataCategory>
+                <label>SFLY Layflat Books</label>
+                <name>SFLY_Layflat_Books</name>
+            </dataCategory>
+            <label>Memberships</label>
+            <name>Memberships</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Internal Department Request (IDR)</label>
+                <name>Internal_Department_Request_IDR</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exceptions</label>
+                <name>Exceptions</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Retesting Equipment</label>
+                <name>Retesting_Equipment</name>
+            </dataCategory>
+            <label>Damages</label>
+            <name>Damages</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Vendor Communications</label>
+                <name>Vendor_Communications</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Evaluating Equipment &amp; Assessing Blame</label>
+                <name>Evaluating_Equipment_Assessing_Blame</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exceptions</label>
+                <name>Exceptions_Repairs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payments</label>
+                <name>Payments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>How To: Repair Manuals</label>
+                <name>How_To_Repair_Manuals</name>
+            </dataCategory>
+            <label>Repairs</label>
+            <name>Repairs</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Bugs, Site Outages, &amp; Escalations</label>
+                <name>Bugs_Site_Outages_Escalations</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Product Page Copy Changes</label>
+                <name>Product_Page_Copy_Changes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Known Bugs &amp; Troubleshooting</label>
+                <name>Known_Bugs_Troubleshooting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Trends</label>
+                <name>Trends_WebsiteAssistance</name>
+            </dataCategory>
+            <label>Website Assistance</label>
+            <name>Website_Assistance</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Account Setup &amp; Management</label>
+                <name>Account_Setup_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Account Verification</label>
+                <name>Account_Verification</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Data Logging</label>
+                <name>Data_Logging</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payments &amp; Collections</label>
+                <name>Payments_Collections</name>
+            </dataCategory>
+            <label>PO Accounts</label>
+            <name>PO_Accounts</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Account Assistance</label>
+                <name>Account_Assistance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Data Distortions</label>
+                <name>Data_Distortions</name>
+            </dataCategory>
+            <label>IT assistance</label>
+            <name>IT_assistance</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Leadership Team</label>
+            <name>Leadership_Team</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Knowledge</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

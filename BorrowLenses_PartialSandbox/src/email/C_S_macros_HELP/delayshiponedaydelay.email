@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for bringing this shipping delay to our attention. I’ve spoken to UPS, who’ve confirmed that they’re running one day behind due to an unforeseen delay. On behalf of UPS, I apologize for this inconvenience!
+
+As long as the rental arrives tomorrow, and you can still use it, I can give you a voucher code for your troubles, totaling the one-way shipping and 1-day rental costs. When you’re ready to place your next order, simply punch in the code during checkout and this amount will be subtracted from your order. The voucher is good for 6 months from today's date. 
+ 
+If you’d prefer, instead of a voucher, I can extend your rental 1 day for no additional cost and reimburse you the outbound shipping costs. 
+
+Again, I’m so sorry for any inconvenience this may have caused. Please let me know how you’d like to move forward.
+
+Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

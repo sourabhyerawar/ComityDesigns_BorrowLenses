@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for emailing back! I reviewed your tracking information [xxxxxxxxxx] with UPS and it appears the scan hasn't been activated by your local UPS hub. This can happen when a package hasn’t been returned directly to UPS, and is being transported from another location (like a mailroom or dropbox) which takes extra time.  
+
+If you have a copy of your postmarked receipt (something we request on your instruction sheet and return reminder email) I can waive the late fees. If you don’t have this receipt, I can help you avoid late fees by extending your rental. The cost for a X-day extension on your current reservation is $XX.XX. 
+
+Please let me know if you have a receipt that I can upload to your account, or if you’ll need an extension.
+ 
+Thanks,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

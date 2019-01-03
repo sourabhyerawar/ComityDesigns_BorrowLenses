@@ -1,0 +1,220 @@
+<!-- VF Page Name: LiveAgentPreChatCustomerSupport-->
+<!-- Purpose: Custom Pre-Chat page for Live Agent Chat -->
+
+<apex:page id="thePage" showHeader="false" sidebar="false" title="Support Pre-Chat" standardStylesheets="true" cache="false">
+
+    <apex:stylesheet value="{!URLFOR($Resource.Libraries, '/bootstrap/css/bootstrap.css')}" /> 
+    <apex:includeScript value="{!URLFOR($Resource.Libraries, '/jquery/js/jquery-2.2.3.min.js')}" />
+    <!-- Visualforce Page CSS -->
+    <apex:stylesheet value="{!URLFOR($Resource.LiveAgentResource, '/css/LiveAgent.css')}"/>
+
+    <!-- Visualforce Page JAVASCRIPT -->
+    <apex:includeScript value="{!URLFOR($Resource.LiveAgentResource, '/js/liveAgent.js')}"/>
+
+    <style>
+        .headerContainer {
+            background-color: black !important;
+        }
+        .customBtn {
+            background-color: #E1050A !important;
+            border: 1px solid #E1050A !important;
+            font-family: Futura, "Trebuchet MS", Helvetica Neue,Helvetica,Arial,sans-serif;
+            border-radius: 0px !important;
+        }
+        .customBtn:hover {
+            background-color: #E1050A !important;
+            border: 1px solid #E1050A !important;
+        }
+    </style>
+
+     <form id="prechatForm" method="post">
+      <!-- Header -->
+      <div class="headerContainer container-fluid" align="center">
+        <div align="center" style="padding:10px;">
+          <apex:image height="50px" url="https://cdn.static-bl.com/images/png/BL_LogoWShadow.png" />
+        </div>
+        <div class="row" style="padding:30px;">
+          <p class="headerTitle">Chat with BL Support</p>
+          <p class="headerSubTitle">From ordering to returns, we’re here to help.</p>
+        </div>
+      </div>
+
+      <!--START: Customer Input Form Div -->
+      <div class="formContainer container-fluid">
+        <!-- START: Body Section for Input Form -->
+        <div class="bodydiv">
+         <!-- Row for apex:messages -->
+         <div class="row">
+           <apex:outputPanel id="opmsgs">
+            <apex:messages styleClass="msgs" id="pgmsgs" title="Error Messages" />
+           </apex:outputPanel>
+         </div>
+         <!-- START: Row Section for input fields -->
+         <div class="row" >
+           <!-- START: Column Section to display input fields-->
+           <div class="col-md-12" style="margin-left: 5px;margin-right: 10px;">
+              <!-- Header information message -->
+                <div class="containerInfo">
+                 Need a hand with your rental? Just let us know who you are and our customer service experts will dive right in to get you on your way.
+                 <br/>
+                </div>
+              <!-- Required field display -->
+              <div align="right" class="requiredInfo">* = required field
+              </div>
+
+              <!-- Live Agent Pre-chat Name field used to set Visitor name in Agent's chat window --> 
+              <input type="hidden" name="liveagent.prechat.name" id="visitorName"/>
+
+              <div class="row">
+                <!-- User enters First Name here -->
+                <div class="col-md-6">
+                  <div class="form-group requiredInput">
+                      <input type="text" class="form-control" name="liveagent.prechat:AccountFirstName" 
+                       id="firstName" placeholder="First Name"/>
+                      <div class="requiredError" id="firstNameError" style="display:none">
+                        Whoops, please let us know what to call you.
+                      </div>
+                  </div>
+                </div>
+
+                <!-- User enters Last Name here -->
+                <div class="col-md-6">
+                  <div class="form-group requiredInput">
+                    <input type="text" class="form-control" name="liveagent.prechat:AccountLastName" 
+                    id="lastName" placeholder="Last Name"/>
+                    <div class="requiredError" id="lastNameError" style="display:none">
+                      Whoops, please let us know what to call you.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- User enters Email here -->
+              <div class="form-group requiredInput">
+                <input type="text" class="form-control" name="liveagent.prechat:AccountEmail" 
+                 id="email" size="20" placeholder="Your Email"/>
+                <div class="requiredError" id="emailError" style="display:none">
+                  Uh oh, we need your email to look up your details!
+                </div>
+              </div>
+              
+              <!-- User enters Email here -->
+              <div class="form-group">
+                <input type="text" class="form-control" name="liveagent.prechat:CaseOrderNumber" id="caseOrderNumber" size="20" placeholder="Your Order Number (if it's handy)"/>
+              </div>
+
+              <!-- User enters Subject here -->
+              <div class="form-group">
+                <label class="labelWithLimit">
+                  <b>What can we help you with?</b>
+                </label>
+                <div align="right" class="requiredInfo">Limit: 255 characters
+                </div>
+                <div class="requiredInput">
+                  <textarea
+                    class="form-control"
+                    name="liveagent.prechat:Case Subject" 
+                    id="subject"
+                    maxlength="254"
+                    placeholder="Give us a head start on how to help." />
+                  <div class="requiredError" id="subjectError" style="display:none">
+                    Give us a head start on how to help.
+                  </div>
+                </div>
+              </div>
+                    
+              <!-- Person Account Logic -->
+              <!-- Set Person Account Record Type Id -->
+              <input type="hidden" name="liveagent.prechat:AccountRecordType" value="0120R000000DyRYQA0" /> 
+              <!-- Map fields to Person Account -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.map:Account" value="PersonEmail,AccountEmail;FirstName,AccountFirstName;LastName,AccountLastName;RecordTypeId,AccountRecordType" />
+              
+              <!-- Search for Person Account by PersonEmail -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Account" value="PersonEmail, true"/>
+              <input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Account" value="PersonEmail, true"/>
+              
+              <!-- If not found, create new Person Account -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Account" value="PersonEmail,true;FirstName, true;LastName,true;RecordTypeId,true" /> 
+              
+              <!-- Show Account on Create -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Account" value="true" />  
+              
+              <!-- Show the Account when it is found or created in a SubTab -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.displayToAgent:Account" value="True" /> 
+              
+              <!-- Save transcript to the Case which is created -->   
+              <input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Account" value="AccountId"/>
+
+              <!-- Contact Logic -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.map:Contact" value="FirstName,AccountFirstName;LastName,AccountLast;Email,AccountEmail;Account,AccountId"/>
+              <!-- Try to find the Contact by email (exact match) -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Contact" value="Email,true"/>
+              <input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Contact" value="Email,true"/>
+              
+              <!-- Save transcript to the Contact found -->   
+              <input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Contact" value="ContactId"/>
+              
+
+              <!-- Create a Case every time -->
+              <!-- Map the Case Origin and Status to the proper values during Implementation -->
+              <input type="hidden" name="liveagent.prechat:Case Origin" value="Chat"/>
+              <input type="hidden" name="liveagent.prechat:Case Status" value="In Progress"/>
+              <input type="hidden" name="liveagent.prechat:Case Department" value="Help" />
+              
+              
+              <!-- Map Live Agent Origin, Status fields to the respective Case fields -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.map:Case" value="Origin,Case Origin;Status,Case Status;Subject,Case Subject;Order_Number__c,CaseOrderNumber;Department__c,Case Department;"/>
+
+              <!-- Create a new Case -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Case" value="Origin,true;Status,true;Subject,true;Order_Number__c,true;Department__c, true;"/>
+
+              <!-- Save transcript to the Case which is created -->   
+              <input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Case" value="Case"/>
+               
+              <!-- Show the Case when it is found or created in a SubTab -->
+              <input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Case" value="true"/>
+               
+              <!-- Link the Person Account to the Case -->
+              <input type= "hidden" name="liveagent.prechat.findorcreate.linkToEntity:Account" value="Case,AccountId"/>
+              <input type= "hidden" name="liveagent.prechat.findorcreate.linkToEntity:Contact" value="Case,ContactId"/> 
+
+              <!-- Button to submit chat request to Live Agent and open Chat window -->
+              <div align="center">
+                <input class="customBtn" type="submit" value="Start Chat" id="prechat_submit"
+                onclick="validateFields(); if(fieldValidationError == true) return false;"/>
+              </div>
+           <!-- END: Column Section for input fields -->
+           </div>
+         <!-- END: Row Section for input fields -->
+         </div>
+        <!-- END: Body section of Input Form -->
+        </div>
+      <!-- END: Custom Input Form Div-->
+      </div>
+     </form>
+
+
+  <script type="text/javascript">
+    $j(document).ready(function(){
+      // Concatenate First Name and Last Name and set it to Live Agent hidden pre-chat name field
+      // whenever text in the First Name or Last Name field changes
+      setName();
+
+      // Pre-Chat API Documentation //
+      // SFDC function which handles pre chat form submission //
+      (function() { 
+        function handlePageLoad() {
+          var endpointMatcher = new RegExp("[\\?\\&]endpoint=([^&#]*)");
+          document.getElementById('prechatForm').setAttribute('action',
+          decodeURIComponent(endpointMatcher.exec(document.location.search)[1]));
+        } 
+        if (window.addEventListener) {
+          window.addEventListener('load', handlePageLoad, false);
+        } 
+        else { 
+          window.attachEvent('onload', handlePageLoad, false);
+        }
+      })();
+    });
+  </script>
+</apex:page>

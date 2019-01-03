@@ -1,0 +1,17 @@
+Hi {!Contact.FirstName},  
+
+I'm writing to follow up on the voicemail I left about your order. Turns out our shipping department was unable to process the payment for your order. This could be due to an expired card or insufficient funds available.
+
+As a heads up, please know that we can’t ship your order until this has been resolved, so get in touch as soon as you can by either replying to this email or calling us at (844)-853-6737 (option 2).
+
+To change your payment info, please visit the ""My Accounts"" section of our website and click on ""Order History"". There, you’ll find the option to reorder your current reservation. 
+ 
+Please follow the steps through checkout and email me your new order number. If you have any issues selecting your original arrival date, simply choose any available date and I’ll adjust your new order to match your previous reservation.
+
+We look forward to taking care of this quickly, so you can enjoy your rental!
+ 
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

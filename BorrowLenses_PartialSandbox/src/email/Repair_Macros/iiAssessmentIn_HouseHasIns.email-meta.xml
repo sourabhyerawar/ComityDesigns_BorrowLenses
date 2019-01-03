@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(ii) Assessment, In-House, Has Ins.</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+  
+I’m reaching out about your recent order #XXXXX. We’ve completed the repairs and calculated the final amount owed.
+  
+Since you purchased GearGuard, you’re only liable for 12% of the item’s replacement value, or the repair fees, whichever is cheaper.
+  
+Here’s a summary of the repair cost and 12% replacement value referenced from www.bhphotovideo.com:
+  
+Item: XXXX
+  
+Replacement parts cost: $XXXXX
+Labor cost: $XXXXX
+Total repair cost: $XXXXX
+  
+12% replacement value: $XXXX
+  
+The cheaper of the two costs and the amounted owed to close this case is: $XXXX + tax.
+ 
+Please email me back so I can charge this amount and close the case on your account. I can charge the card on file or, if you’d prefer, you can call me with a different method of payment. Please note that if we don’t hear back from you within 5 days, your account information may be sent to collections.  
+  
+For more information about damage and GearGuard, please refer to that section on our help page (borrowlenses.com/content/damage_waiver), or review the Equipment Lease Agreement (borrowlenses.com/content/rental_agreement). 
+  
+I look forward to hearing from you soon.
+
+Kindly,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Repair Team
+Repair@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case has been in the Waiting On Customer for 30 days (Calendar days), change the status to Completed and Inform Customer.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>3. Auto Close Case - No Response For 30 Days</name>
+    <style>freeForm</style>
+    <subject>Heads up on your BorrowLenses Support Case: {!Case.CaseNumber}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+It looks like we haven’t heard back from you regarding your message (Case: {!Case.CaseNumber}) in a few weeks so we’ve closed it for now. Still need a response?  You can reopen the case just by replying to this email.  Or, if you ever need to talk to us about something else, just send a new email to this address &lt;email address&gt;. Super-easy, right?!
+
+Case Number: {!Case.CaseNumber}
+Case Subject: {!Case.Subject}
+
+
+Thanks,
+
+{!Case.OwnerFirstName} 
+BorrowLenses 
+{!Case.Department__c} 
+{!Case.Department_Contact_Number__c}
+www.borrowlenses.com
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+My records show that your order is in "unboxed" status in our warehouse.  Due to the backlog of items it may take several business days for it to be checked by our receivers.  Once this happens, you will receive a confirmation email that your order is "complete".  In the meantime if there is anything else I can assist you with please feel free to contact me!
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

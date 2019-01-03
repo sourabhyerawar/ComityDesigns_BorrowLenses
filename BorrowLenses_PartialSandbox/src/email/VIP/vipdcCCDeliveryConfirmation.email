@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thank you for renting with the Borrowlenses.com VIP Department.  I see that your rental was delivered [today/yesterday/date] and wanted to follow-up and confirm everything is going smoothly so far.  I also wanted to offer our personalized services to assist you should you have any questions at all regarding your rental with us.  If you do have any questions please feel free to email or call me as your direct point-of-contact at the VIP department.  Thanks again and enjoy your rental!
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

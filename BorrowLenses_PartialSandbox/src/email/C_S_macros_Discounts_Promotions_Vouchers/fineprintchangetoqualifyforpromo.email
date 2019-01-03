@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+That’s a great question! The fine print states that the code is applicable only to orders placed on xxx, xxx, 20XX before 11:59 PM PST and orders must be scheduled to be shipped by or picked up by end of the day xxx, xxx, 20XX. 
+ 
+If you’d like to qualify for this promotion, I can help amend your order to fit the guidelines. Once we work out the details, I’ll add the promotion code on the back end of our system, so you can take advantage of the savings.
+
+Please let me know if you’d like to move forward, or if there’s anything else I can do for you today!
+
+Thanks,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

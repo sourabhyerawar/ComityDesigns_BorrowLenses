@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>Prepaid Deposit Offer</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+Thanks for your interest in renting with us! Unfortunately, we don’t accept prepaid debit or credit cards, or gift credit cards for payment. To move forward with your order, you have a couple of options:
+
+1) You can provide a deposit in the amount of ***INSERT 1/5 ORDER VALUE*** and we can continue with the payment on file
+2) You can cancel your order and replace it with a major credit or debit card, such as a Visa, MasterCard, Discover or American Express.
+
+For a more information, take a look at our Help page under the &quot;Billing&quot; section. (borrowlenses.com/content/billing) Please get in touch if you have any questions – I’m happy to help!
+
+Best,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

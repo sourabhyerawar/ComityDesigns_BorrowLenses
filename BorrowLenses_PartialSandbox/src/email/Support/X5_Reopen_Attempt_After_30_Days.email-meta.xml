@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case has been in the Closed status for less than 30 days (Calendar days?) and Customer sends an email to the same Case</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>5. Reopen Attempt After 30 Days</name>
+    <style>freeForm</style>
+    <subject>BorrowLenses Support Case Update : {!Case.CaseNumber}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+
+Shoot! It looks like you are replying to a case we’ve already closed . If you need to chat with us further or want to ask another question, just send us a new email at {OriginInbox} so we can get you paired up with one of our experts right away (don’t worry, they’ll be able to access all your old cases as well). We look forward to talking with you soon!
+
+
+
+Best,
+
+{!Case.OwnerFirstName} 
+BorrowLenses 
+{!Case.Department__c} Department 
+{!Case.Department_Contact_Number__c} 
+www.borrowlenses.com
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(in) Assessment, In-House, No Ins.</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+  
+I’m reaching out about your recent order #XXXXX. We’ve completed the repairs and calculated the final amount owed.
+
+Here’s a summary of the repair cost:
+  
+Item: XXXX
+  
+Replacement parts cost: $XXXXX
+Labor cost: $XXXXX
+Total repair cost: $XXXXX
+  
+Since you didn’t purchase GearGuard, you’ll also need to pay a “loss of use” fee, which is the rental rate for the time the item was out for repair. The item was out for XX days, which equals $XXXX in loss of use fees. Please know that we use the fastest service possible to limit the amount of time the gear is out for repair.
+  
+Here’s a summary of the total amount owed:
+  
+Repair fee: $XXX
+Loss of use fee: $XXX
+  
+Total: $XXX + tax
+ 
+Please email me back so I can charge this amount and close the case on your account. I can charge the card on file or, if you’d prefer, you can call me with a different method of payment. Please note that if we don’t hear back from you within 5 days, your account information may be sent to collections.  
+  
+For more information about damage and GearGuard, please refer to that section on our help page (borrowlenses.com/content/damage_waiver), or review the Equipment Lease Agreement (borrowlenses.com/content/rental_agreement). 
+  
+I look forward to hearing from you soon.
+
+Kindly,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Repair Team
+Repair@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

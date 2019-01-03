@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for emailing us back! I reviewed your tracking info with UPS and it appears your package didn’t make the cut-off time at your local hub. This means the package will ship out the following day. Usually, this happens when a package hasn’t been returned directly to UPS, and took extra time transporting from a mailroom or dropbox.  
+
+To help you avoid expensive late fees, I have added a 1-day extension to your account, extending your rental through today’s date. Your account is now current and in good standing. 
+ 
+If you have any questions, please let me know! I’m happy to help.
+
+Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

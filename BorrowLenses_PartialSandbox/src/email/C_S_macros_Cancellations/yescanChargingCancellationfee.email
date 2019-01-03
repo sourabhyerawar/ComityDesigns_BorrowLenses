@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thanks for your email! As requested, I’ve cancelled your order and sent you a new confirmation email. Since your order was cancelled less than 24 hours before the ship date, a 1-day rental fee will be applied to your account for the late notice. You can find this policy on the help page of our website (borrowlenses.com/content/cancellations) under the cancellations section.
+ 
+The remainder of your rental cost will be canceled and returned to your card (the time this will take depends on your bank’s speediness).
+
+If you have any questions, please let me know!
+ 
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

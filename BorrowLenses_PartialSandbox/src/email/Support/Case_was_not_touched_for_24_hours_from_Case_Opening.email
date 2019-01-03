@@ -1,0 +1,13 @@
+Hi BLLT!
+</br>
+</br>
+Uh oh, I was looked-over. Please find me a friend; I need a little love!:  {!Case.Link}
+</br>
+</br>
+<b>Case Details:</b></br>
+Customer: {!Case.Account}</br>
+Subject: {!Case.Subject}</br>
+</br>
+</br>
+Best,</br>
+BL Support Bot

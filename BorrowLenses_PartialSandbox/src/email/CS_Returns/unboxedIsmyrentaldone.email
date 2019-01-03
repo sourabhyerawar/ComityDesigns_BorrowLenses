@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your email, and for taking the time to check your order was returned to us!
+
+An “unboxed” order status means your rental has successfully returned to our warehouse and is waiting to be processed. Our gear techs test, clean and approve all items before clearing them to go out on other orders. Once they’ve finished this process with your rental, we’ll send you an email confirming that your order is complete. 
+ 
+Also, if you ever want to check on the status of an order, simply log into your account and click “Order History” (here’s a direct link: www.borrowlenses.com/AccountHistory.do). You’ll see the status on all your orders in the middle of the page.  
+
+Thanks again, and please let me know if there’s anything else I can do for you!
+ 
+ Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

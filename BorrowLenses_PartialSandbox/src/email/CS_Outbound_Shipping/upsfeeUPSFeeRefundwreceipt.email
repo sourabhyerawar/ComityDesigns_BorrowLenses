@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+I’m so sorry to hear about your experience – UPS shouldn’t be charging our customers any fees whatsoever. I will gladly reimburse you for the amount once we’ve received your order. Please take a photo of the receipt with your phone and email it to me, so I can issue you a refund.
+
+Again, I’m sorry for this inconvenience and hope your rental is otherwise going well! Please let me know if there’s anything else I can do for you – I’m here to help.
+
+Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

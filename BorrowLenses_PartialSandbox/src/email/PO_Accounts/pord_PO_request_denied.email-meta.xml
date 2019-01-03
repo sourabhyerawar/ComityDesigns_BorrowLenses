@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BL_Support_Letterhead</letterhead>
+    <name>(pord) PO request denied</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thanks for your recent request to set up purchase order billing with BorrowLenses. Unfortunately, we’re unable to approve your request at this time. You’re absolutely welcome to continue using our services, however we can only accept payment through a debit or credit card.
+
+I’m sorry if this causes any inconvenience and I appreciate your understanding.
+
+Kindly,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Purchase Order Accounts
+accounts@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

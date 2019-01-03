@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(ipr) Insert Payment Request</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+Please email me back as soon as you can, so I can charge the amount owed and close the case on your account. I can charge the card on file, or if you’d prefer, you can call me with a different method of payment. Please note that if we don’t hear back from you within 5 days your account information may be sent to collections.  
+  
+For more information about damage and GearGuard, please refer to that section on our help page (borrowlenses.com/content/damage_waiver), or review the Equipment Lease Agreement here: www.borrowlenses.com/content/rental_agreement.  
+
+Kindly,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Repair Team
+Repair@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

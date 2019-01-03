@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+To change your payment info, please visit the ""My Accounts"" section of our website and click on ""Order History"". There, you’ll find the option to reorder your current reservation. 
+ 
+Please follow the steps through checkout and email me your new order number. If you have any issues selecting your original arrival date, simply choose any available date and I’ll adjust your new order to match your previous reservation.
+
+I look forward to hearing from you soon!
+ 
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

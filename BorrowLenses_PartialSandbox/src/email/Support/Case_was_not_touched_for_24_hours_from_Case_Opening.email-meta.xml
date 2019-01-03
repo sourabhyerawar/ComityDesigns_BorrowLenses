@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case was not touched for “24” hours from Case Opening</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Case was not touched for “24” hours from Case Opening</name>
+    <style>none</style>
+    <subject>{!Case.CaseNumber} Email Not Touched for 24 Hours</subject>
+    <textOnly>Hi BLLT!   
+
+Uh oh, I was looked-over. Please find me a friend; I need a little love!:  {!Case.Link}   
+
+Case Details:
+Customer: {!Case.Account} 
+Subject: {!Case.Subject}  
+
+Best, 
+BL Support Bot</textOnly>
+    <type>custom</type>
+</EmailTemplate>

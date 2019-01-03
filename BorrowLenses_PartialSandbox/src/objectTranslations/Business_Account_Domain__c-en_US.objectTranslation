@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Business Account Domain</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Business Account Domains</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Business Account Domains --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Convert Person Accounts --></label>
+        <name>Convert_Person_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Converted Date/Time --></label>
+        <name>Converted_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domain Name --></label>
+        <name>Domain_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Business Accounts Domain Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

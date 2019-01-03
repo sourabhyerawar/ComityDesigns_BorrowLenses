@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>SUPPORT: Test (SAMPLE)</name>
+    <style>freeForm</style>
+    <subject>BorrowLenses Support Case Sample : {!Case.CaseNumber}</subject>
+    <textOnly>Hi {!Contact.FirstName}
+
+Thanks for letting us know – I really appreciate it! We’ll send you a confirmation email once we’ve processed your return (it can take a few days or longer depending on how busy things are here so don&apos;t worry if you don&apos;t hear back right away.)
+
+Have a good one!
+
+{!Case.OwnerFirstName}
+Asset Recovery Department
+844-8-LENSES (844-853-6737) x5&quot;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

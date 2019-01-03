@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+I’m emailing about your most recent rental with us. While processing your return, we noticed that some items were missing their original protective materials. Without them, equipment may shift and get damaged during transit, leaving you liable for repair costs. 
+
+Luckily, your rental arrived to us safely and no fees will be charged to your account. I just wanted to give you a heads up on how to make sure your future orders return safe. And if you ever lose the original packaging, please ask your carrier to repackage the gear for you. 
+
+Let me know if you have any questions. We look forward to working with you in the future! 
+ 
+Thanks,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

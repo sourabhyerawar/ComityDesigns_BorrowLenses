@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+I had my managers check our payment system for the charge you described and they said it could be from the decline you received during checkout. There is a note about a decline due to an “AVS mismatch,” which means the billing address doesn’t match what’s on the credit card.
+
+I’ve seen this issue before where some banks will hold the funds on your account because they think you’re trying to make a transaction. The funds are held to stop your card from overdrafting, similar to the way a reservation is placed with a hotel. Some banks will release the funds immediately, while others will attempt to hold the amount for 3-5 business days. Either way, these funds will return to your account.
+
+I hope this helps clarify things. Please let me know if there’s anything else I can do for you. Enjoy your rental!
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

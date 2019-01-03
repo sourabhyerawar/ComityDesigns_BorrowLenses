@@ -1,0 +1,9 @@
+Hi {!Contact.FirstName},  
+ 
+Your order was scheduled for return on [XXXXXXX]. To make your account current, your order needs a [XX] day extension. However, your card on file was declined when we attempted to extend your order. Please know that if your order isn’t extended before your rental returns to our office, our payment system will apply late fees to your account. These late fees are considerably more expensive than an extension. If you’d like to go ahead with the reduced extension rate of $XX.XX, please get back to me as soon as you can with your current billing info.
+ 
+I look forward to hearing from you soon!
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

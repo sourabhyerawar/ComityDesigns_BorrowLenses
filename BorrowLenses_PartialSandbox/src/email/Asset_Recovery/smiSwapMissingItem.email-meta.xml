@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(smi) Swap Missing Item</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName}, 
+ 
+It appears you’ve shipped us your [MISSING ITEM]. Can you please check if the [MISSING ITEM] in your possession has a Borrowlenses barcode on it?
+ 
+If so, we can handle it 2 ways:
+
+1. We can ship each item back to its original owner. Return shipping costs are $8-$10.
+2. We can swap items, so you keep ours and we keep yours. Includes a $5 (not including tax) re-barcoding fee.
+
+If you’d like to swap, please confirm your card on file is OK to charge the re-barcoding fee. Then, please remove the barcode on your item to prevent any mix-ups in the future.
+ 
+If you’d like us to ship back your gear, please confirm your card on file is OK to charge for shipping (approx $8-$10) and let us know your return address and whether you’d like a signature required for delivery. Then, send back our missing item and email us the tracking number.
+
+Here are our return addresses:
+ 
+BorrowLenses.com
+ &quot;MISSING ITEMS&quot; Order #
+ 1664 Industrial Road
+ San Carlos, Ca 94070
+ 
+ or
+ 
+ BorrowLenses.com
+ &quot;MISSING ITEMS&quot; Order #
+ 411 Waverly Oaks Rd.
+ STE #113
+ Waltham, MA 02452
+
+Please let me know which option you’d like to move forward with, or if you have any other questions.
+ 
+ Thanks,
+
+ {!Case.OwnerFirstName}
+ Asset Recovery Department
+ 844-8-LENSES (844-853-6737) x5</textOnly>
+    <type>html</type>
+</EmailTemplate>

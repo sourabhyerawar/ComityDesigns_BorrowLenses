@@ -1,0 +1,65 @@
+&nbsp;
+<div class="setupTab" style=" background-color:#FFFFFF; bEditID:b1st1; bLabel:body;">
+<center>
+<table cellpadding="0" cellspacing="0" height="450" width="500">
+	<tbody>
+		<tr valign="top">
+			<td colspan="1" rowspan="1" style=" background-color:#333232; bEditID:r1st1; bLabel:header; vertical-align:top; height:100; text-align:center;"><img border="0" src="https://test-borrowlenses--Partial.cs94.my.salesforce.com/servlet/servlet.ImageServer?id=0150R0000001DIj&amp;oid=00D0R000000928N" /></td>
+		</tr>
+		<tr style=" display:none;" valign="top">
+			<td colspan="1" rowspan="1" style=" background-color:#FFFFFF; bEditID:r2st1; bLabel:accent1; height:0;">&nbsp;</td>
+		</tr>
+		<tr valign="top">
+			<td colspan="1" height="300" rowspan="1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;">
+			<table border="0" cellpadding="5" cellspacing="5" height="400" width="550">
+				<tbody>
+					<tr height="400" valign="top">
+						<td colspan="1" rowspan="1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;">
+						<p dir="ltr" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: rgb(255, 255, 255);"><span style=""><span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><font face="Verdana, Helvetica, sans-serif" size="2" style="">Hi {{{Case.SuppliedEmail}}}{{{Recipient.Email}}},</font></span></span></p>
+
+						<p dir="ltr" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: rgb(255, 255, 255);"><span style=""><font face="Verdana, Helvetica, sans-serif" size="2">&nbsp;</font></span></p>
+						&nbsp;
+
+						<p dir="ltr" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: rgb(255, 255, 255);"><span style=""><span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><font face="Verdana, Helvetica, sans-serif" size="2">Case ID: {{{Case.CaseNumber}}}</font></span></span></p>
+
+						<p dir="ltr" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: rgb(255, 255, 255);"><span style=""><span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><font face="Verdana, Helvetica, sans-serif" size="2">Case Subject: {{{Case.Subject}}}</font></span></span></p>
+
+						<p dir="ltr" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: rgb(255, 255, 255);">&nbsp;</p>
+
+						<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; background-color: rgb(255, 255, 255);"><span style=""><span style="background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline;"><font face="Verdana, Helvetica, sans-serif" size="2" style=""><span style="white-space: pre-wrap;">Regards,</span></font></span></span></p>
+
+						<p dir="ltr" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+
+						<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size:14px;">{{{Sender.FirstName}}}</span></p>
+
+						<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style=""><font face="Verdana, Helvetica, sans-serif" size="2"><span style="white-space: pre-wrap;"><b>BorrowLenses</b></span></font></span></p>
+
+						<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size:14px;">{{{Case.Department__c}}}&nbsp;</span><span style=""><font face="Verdana, Helvetica, sans-serif" size="2"><span style="white-space: pre-wrap;">Department</span></font></span></p>
+
+						<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size:14px;">{{{Case.Department_Contact_Number__c}}}</span></p>
+
+						<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt; font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style=""><font face="Verdana, Helvetica, sans-serif" size="2"><span style="white-space: pre-wrap;"><a href="http://www.borrowlenses.com" shape="rect" target="_blank">www.borrowlenses.com</a></span></font></span></p>
+
+						<p dir="ltr" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt;"><span style="color:#FFFFFF;">{{{Case.Thread_Id}}}</span></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td colspan="1" rowspan="1" style=" background-color:#FFFFFF; bEditID:r4st1; bLabel:accent2; height:1;">&nbsp;</td>
+		</tr>
+		<tr valign="top">
+			<td colspan="1" rowspan="1" style=" background-color:#FFFFFF; bEditID:r5st1; bLabel:footer; vertical-align:top; height:100; text-align:left;">&nbsp;</td>
+		</tr>
+		<tr valign="top">
+			<td colspan="1" rowspan="1" style=" background-color:#FFFFFF; bEditID:r6st1; bLabel:accent3; height:1;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</center>
+</div>
+<br clear="none" />
+<img src="http://test-borrowlenses--Partial.cs94.my.salesforce.com/servlet/servlet.ImageServer?oid=00D0R000000928N&amp;esid=0180R000000G13i" /><br clear="none" />
+&nbsp;

@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+Absolutely! A X-day extension will cost $XX.XX. Would you like me to go ahead and extend your order?
+ 
+Also, you can extend orders through our website as long as it’s before your original return date. Simply go into your account and open your order under “Order History” and follow the prompts from there: borrowlenses.com/AccountHistory.do. 
+
+If you have any questions, or would like me to handle the extension for you, just let me know!
+ 
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

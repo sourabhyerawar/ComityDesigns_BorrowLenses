@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+That's a great question! Unfortunately, we don’t buy used items, but I can recommend a company that might purchase your equipment: KEH.com 
+
+Hopefully they can help you out. Have a great day!
+ 
+Cheers,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

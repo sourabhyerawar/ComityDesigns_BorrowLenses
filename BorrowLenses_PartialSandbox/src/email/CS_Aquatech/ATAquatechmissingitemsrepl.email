@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for renting with us! I’m sorry to hear you’re having difficulties with your AquaTech order. 
+ 
+Since AquaTech orders are shipped from their warehouse, I have no way of knowing which parts may or may not be missing. I recommend contacting AquaTech directly at 714-968-6946 and asking for Manny. He’ll be able to give you more specific technical advice and, if necessary, a replacement for any missing items.
+ 
+If there’s anything else I can do for you, just let me know! 
+ 
+ Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

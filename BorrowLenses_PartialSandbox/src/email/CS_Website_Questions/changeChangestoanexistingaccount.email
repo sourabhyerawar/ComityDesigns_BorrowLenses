@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+I’ve made the changes you requested to your order and sent you a new confirmation email. Please take a look at the invoice to make sure everything’s as it should be.
+
+If there’s anything else I can do to help, just let me know! 
+ 
+Have a great day,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

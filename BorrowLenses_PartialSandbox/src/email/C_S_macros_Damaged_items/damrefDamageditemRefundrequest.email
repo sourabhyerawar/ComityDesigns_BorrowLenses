@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},  
+ 
+I’m so sorry to hear that your rental was anything less than expected. I have forwarded your information to our receiving department and added notes to your account. 
+ 
+Once your rental arrives back to our warehouse, our gear techs will inspect each item and then contact our billing department. (Our billing department requires these inspections before processing refunds.)
+
+Rest assured, I’ll be your point of contact during this process. In the meantime, if there’s anything I can do for you, just let me know. 
+ 
+Again, I’m really sorry for the inconvenience this may have caused and thanks in advance for your patience.
+ 
+ Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

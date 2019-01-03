@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I'm writing to follow up on the voicemail I left about your order. Turns out our shipping department was unable to process the payment for your order. This could be due to an expired card or insufficient funds available.
+
+As a heads up, please know that we can’t ship your order until this has been resolved, so get in touch as soon as you can by either replying to this email or calling us at (844)-853-6737 (option 2).
+ 
+We look forward to taking care of this quickly, so you can enjoy your rental!
+ 
+Thanks,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

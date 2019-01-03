@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Default Email template - Custom</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Default Email template - Custom</name>
+    <style>none</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {{{Recipient.FirstName}}},
+
+
+Case ID: {{{Case.CaseNumber}}}
+
+Case Subject: {{{Case.Subject}}}
+
+
+Regards,
+
+
+{{{Sender.FirstName}}}
+
+BorrowLenses
+
+{{{Case.Department__c}}} Department
+
+{{{Case.Department_Contact_Number__c}}}
+
+www.borrowlenses.com​​​​​​​
+
+{{{Case.Thread_Id}}}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

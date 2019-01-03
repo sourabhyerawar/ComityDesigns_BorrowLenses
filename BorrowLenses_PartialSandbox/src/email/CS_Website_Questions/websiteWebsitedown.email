@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+We’re so sorry for the inconvenience but our website is temporarily down.
+
+Our IT department is working hard to fix the issue. We hope to be back up and running in a few hours, so please try back soon.
+
+Thanks for your patience!
+
+Regards, 
+
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

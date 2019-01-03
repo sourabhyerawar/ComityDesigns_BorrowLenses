@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I’m so sorry to hear that you were having trouble with your rental and I hate that we weren’t able to speak earlier. We’re 100% focused on your satisfaction, so if you’re having issues with the gear, we’ll gladly send you a replacement free of charge. For future rentals, please know you can contact us the moment you notice any problem whatsoever. 
+ 
+I’ve added notes to your account detailing the troubles you’ve experienced and I’ll have our head gear tech check your rental as soon as it returns to our office and follow up with you to discuss the results afterwards. In the meantime, if there’s anything I can do to help, please let me know.
+
+Again, I’m really sorry for the inconvenience this may have caused you.
+ 
+Kindly,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

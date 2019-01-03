@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(so) Shipping out for 3rd Party Repair</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+  
+I’m emailing about your order #XXXXX. I wanted to let you know that the damaged item from this order will be shipped out today for repairs. This process can take several weeks to months, depending on the complexity of the repair, availability of parts and workload. Feel free to email me any time to check in on the status of your repair.
+
+Once the item is back, I’ll send you an email with the repair diagnosis and, if necessary, the total amount owed. If you owe repair fees, I’ll ask for your payment information at that time – we appreciate you responding within 5 days of any payment request. 
+
+Thanks in advance for your patience while we wait for your item to return from repairs.
+  
+For more information about damage and GearGuard, please refer to that section on our help page (borrowlenses.com/content/damage_waiver), or review the Equipment Lease Agreement (borrowlenses.com/content/rental_agreement). 
+  
+Kindly,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Repair Team
+Repair@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

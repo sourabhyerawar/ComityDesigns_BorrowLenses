@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thank you for renting with us and for your patience while we've conducted an investigation into the (issues) you experienced in your rental.  Our technicians were able to confirm said issue and we have attempted to reach out to you in regards to compensation.  I am sorry we were not able to get in touch so I have gone ahead and issued you a refund for XX amount.  Should you have any questions in regards to this refund please do not hesitate to contact me directly.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

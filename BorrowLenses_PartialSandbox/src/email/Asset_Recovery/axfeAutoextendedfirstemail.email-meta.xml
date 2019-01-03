@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(axfe) Autoextended first email</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>SUBJECT: Borrowlenses.com - Order ##### - Late Order Autoextended - RESPONSE REQUIRED
+ 
+Hi {!Contact.FirstName}, 
+ 
+I’m writing to let you know that your order is considerably late. We’ve tried reaching you several times but still haven’t heard back from you. Therefore, we went ahead and extended your order to keep it current and to prevent any scheduling conflicts with our other equipment. 
+
+It’s our policy that orders must be paid in full before they can be extended beyond the original due date. However we’ve extended your order this time as a courtesy. 
+ 
+Please know that we expect our renters to keep us informed of their most accurate return date. If we don’t know when our equipment is coming back, then we can’t meet other orders. 
+
+Also, please note that late fees are  considerably more expensive than the extension price, which we typically only would offer before the original rental period ends.
+
+Regards,
+
+ {!Case.OwnerFirstName}
+ Asset Recovery Department
+ 844-8-LENSES (844-853-6737) x5</textOnly>
+    <type>html</type>
+</EmailTemplate>

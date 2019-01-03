@@ -1,0 +1,9 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your email! I’ve looked into your tracking information and your rental was indeed postmarked on time. It appears our system sent you an automated reminder. I have updated your account to reflect this information. Thanks for your patience, and please let me know if there’s anything else I can do for you!
+ 
+Have a terrific day,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

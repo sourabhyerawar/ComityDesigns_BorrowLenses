@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(hoi) Homeonwners insurance</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+Unfortunately, we cannot accept homeowners insurance polices. These policies generally do not cover rented photographic equipment let alone cover the equipment outside the home. Additionally, in order to make a claim, we must go through you as these policies do not let us do so on your behalf.
+
+The only way we can proceed with this order is with a deposit or a different type of insurance. If you are certain that your insurance will cover our equipment, you may still have us listed. If we have to charge against your deposit, you can make a claim with your insurance to get your money back.
+
+Otherwise we do accept any photographers insurance, production insurance, or business liability insurance that you may have. Acceptable insurance policies must be in place for at least three months prior to the rental date.
+
+Here are the following insurance companies we&apos;ve worked with:
+
+Package Choice
+The Hartford
+Arts &amp; Entertainment Insurance
+Pro Photographer&apos;s Insurance
+InsureMyRentals
+
+Best,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

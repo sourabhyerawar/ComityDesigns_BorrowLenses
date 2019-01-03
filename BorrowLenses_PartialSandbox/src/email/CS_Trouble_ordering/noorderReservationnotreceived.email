@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+I checked for an order under the username [XXX@XXX.XXX] and couldn’t find a reservation. If you tried placing an order with this account, please know that it didn’t go through. During checkout, after entering payment and pressing “Place Order”, you will be shown an invoice with a 6-digit code. Otherwise, our site triggers the automated message you received.
+
+A great way to confirm your rental has been received is to check for an order number and the option to print. When you see them, you’ll know your rental is in our system and you’ll get an email with the invoice. 
+
+Please let me know if you have any other questions, or if you’d like to me to check for an order under another username. I look forward to hearing back from you!
+ 
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatDeployment xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brandingImage>BL_Logo_w100px</brandingImage>
+    <connectionTimeoutDuration>0</connectionTimeoutDuration>
+    <connectionWarningDuration>0</connectionWarningDuration>
+    <displayQueuePosition>false</displayQueuePosition>
+    <enablePrechatApi>true</enablePrechatApi>
+    <enableTranscriptSave>true</enableTranscriptSave>
+    <label>Support</label>
+    <mobileBrandingImage>BL_Logo_w100px</mobileBrandingImage>
+    <site>Support</site>
+    <windowTitle>Borrowlenses Support</windowTitle>
+</LiveChatDeployment>

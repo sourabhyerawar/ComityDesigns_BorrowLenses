@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(api) Alternate Party Insured</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+Thank you for your order and for sending over proof of insurance. We noticed that the primary account holder who is paying for the order is not the insured party.  The primary account holder is under our lease agreement upon agreeing to the terms on our website, so we are all set there.  In order for coverage to extend to us we need to have a signed lease agreement from the insured party.  We have attached a copy of our lease agreement for you to review. Kindly return a signed copy of this agreement by reply e-mail at your earliest convenience prior to 4:30 PM ET on your shipping date and we will make sure your order gets to you as requested.  Please feel free to contact us with any questions or concerns.
+
+Warm regards,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

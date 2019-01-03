@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thank you for letting us know your order will not be returning on time.  As a gesture of [appreciation/goodwill/understanding] due to your [reason] I am willing to [waive late fees/offer extension fees instead/other].  Should you have any additional questions or concerns about your rental please feel free to contact me.  
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

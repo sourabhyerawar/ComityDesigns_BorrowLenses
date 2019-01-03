@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I just wanted to update you on the status of your rental.  The XXXX  portion of your order has shipped as of XXXX.  The XXXX portion will ship today for arrival XXXX as scheduled.  This will not cause any additional shipping charges as it was an [ISSUE] causing a delay in the shipment.  Nonetheless I wanted to make you aware of the situation.  Again, your order is still slated to arrive on time, and should you have any questions in regards to your order please feel free to contact me directly.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

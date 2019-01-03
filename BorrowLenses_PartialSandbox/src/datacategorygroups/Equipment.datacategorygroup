@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Accessories</label>
+                <name>Accessories</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cameras</label>
+                <name>Cameras</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Camera Housing</label>
+                <name>Camera_Housing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lens Ports</label>
+                <name>Lens_Ports</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lighting Housing</label>
+                <name>Lighting_Housing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sound Blimps</label>
+                <name>Sound_Blimps</name>
+            </dataCategory>
+            <label>Underwater</label>
+            <name>Underwater</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Accessories</label>
+                <name>Accessories_Audio</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Headphones</label>
+                <name>Headphones</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Microphones</label>
+                <name>Microphones</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mixers</label>
+                <name>Mixers</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recorders</label>
+                <name>Recorders</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sound Blimps</label>
+                <name>Sound_Blimps_Audio</name>
+            </dataCategory>
+            <label>Audio</label>
+            <name>Audio</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Dollies &amp; Sliders</label>
+                <name>Dollies_Sliders</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Follow Focus &amp; Lens Support</label>
+                <name>Follow_Focus_Lens_Support</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Jibs &amp; Cranes</label>
+                <name>Jibs_Cranes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Matte Boxes</label>
+                <name>Matte_Boxes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Monopods</label>
+                <name>Monopods</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Plates, Mounts, &amp; Clamps</label>
+                <name>Plates_Mounts_Clamps</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Rigs &amp; Stabilizers</label>
+                <name>Rigs_Stabilizers</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Rails, Rods, &amp; Hi Hats</label>
+                <name>Rails_Rods_Hi_Hats</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Stands &amp; Platforms</label>
+                <name>Stands_Platforms</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Tripods &amp; Heads</label>
+                <name>Tripods_Heads</name>
+            </dataCategory>
+            <label>Support equipment</label>
+            <name>Support_equipment</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Continuous</label>
+                <name>Continuous</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Strobes</label>
+                <name>Strobes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Flashes &amp; On-Camera</label>
+                <name>Flashes_On_Camera</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lighting Modifiers</label>
+                <name>Lighting_Modifiers</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lighting Accessories</label>
+                <name>Lighting_Accessories</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Backdrops</label>
+                <name>Backdrops</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Batteries &amp; Power</label>
+                <name>Batteries_Power</name>
+            </dataCategory>
+            <label>Lighting</label>
+            <name>Lighting</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Bags &amp; Covers</label>
+                <name>Bags_Covers</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Batteries &amp; Power</label>
+                <name>Batteries_Power_Accessories</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Battery Grips</label>
+                <name>Battery_Grips</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cables</label>
+                <name>Cables</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Filters</label>
+                <name>Filters</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Media &amp; Storage</label>
+                <name>Media_Storage</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Monitors</label>
+                <name>Monitors</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Production Tools</label>
+                <name>Production_Tools</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recorders</label>
+                <name>Recorders_Accessories</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Streaming</label>
+                <name>Streaming</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Viewfinders</label>
+                <name>Viewfinders</name>
+            </dataCategory>
+            <label>Accessories</label>
+            <name>Accessories_Equipment</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Ultrawide</label>
+                <name>Ultrawide</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Wide</label>
+                <name>Wide</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Normal</label>
+                <name>Normal</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Short Telephoto</label>
+                <name>Short_Telephoto</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Medium Telephoto</label>
+                <name>Medium_Telephoto</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Longer Telephoto</label>
+                <name>Longer_Telephoto</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Super Telephoto</label>
+                <name>Super_Telephoto</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fisheye</label>
+                <name>Fisheye</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Tilt Shift</label>
+                <name>Tilt_Shift</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Macro</label>
+                <name>Macro</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cine Lenses</label>
+                <name>Cine_Lenses</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Adapters &amp; Extension Tubes</label>
+                <name>Adapters_Extension_Tubes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Teleconverters</label>
+                <name>Teleconverters</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PL Mount Lenses</label>
+                <name>PL_Mount_Lenses</name>
+            </dataCategory>
+            <label>Lenses</label>
+            <name>Lenses</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>4K &amp; Above</label>
+                <name>X4K_Above</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Action &amp; POV</label>
+                <name>Action_POV</name>
+            </dataCategory>
+            <dataCategory>
+                <label>DSLR</label>
+                <name>DSLR</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Experimental</label>
+                <name>Experimental</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Medium Format</label>
+                <name>Medium_Format</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mirrorless</label>
+                <name>Mirrorless</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PL Mount Cameras</label>
+                <name>PL_Mount_Cameras</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Point &amp; Shoot</label>
+                <name>Point_Shoot</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Professional</label>
+                <name>Professional</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Rangefinder</label>
+                <name>Rangefinder</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Micro Four Thirds</label>
+                <name>Micro_Four_Thirds</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cinema RAW</label>
+                <name>Cinema_RAW</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Video Only</label>
+                <name>Video_Only</name>
+            </dataCategory>
+            <dataCategory>
+                <label>VR &amp; 360</label>
+                <name>VR_360</name>
+            </dataCategory>
+            <label>Cameras</label>
+            <name>Cameras_Equipment</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Equipment</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+
+As requested, I’ve cancelled your order and sent you a new confirmation email. Since this is your first time cancelling within 24 hours of the ship date, I’m waiving the standard cancellation fees. The entire cost of your rental will be voided and returned to your account shortly. Please know that it may take 3-5 days for the voided funds to return to your account since the bank requires additional time to finalize the transaction.
+
+Let me know if you have any questions or concerns – I’m happy to help!
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

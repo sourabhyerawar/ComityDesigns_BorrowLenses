@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for writing to us and please accept our sincerest apologies for the email you received. The manner, tone and language of this email is extremely out of the ordinary. We’re currently investigating the intent of this email and I’ll relay your feedback to our leadership team immediately.
+ 
+Please let me know if there’s anything else I can do for you at this time.
+
+Kindly, 
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I am sorry we did not have the opportunity to speak via phone in regards to your order XXXXXX which you left an order note about.  I have left you a voicemail regarding your order requiring a shipping upgrade to [PON/SAT DELIVERY/2nd DAY AM]  (delivered by XXX or as late as noon in rural areas).  This carries a $XX.XX  surcharge and I would need your authorization in order to make that upgrade.  Please contact me at your earliest convenience so I can make the necessary changes to your rental.  
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

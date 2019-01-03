@@ -1,0 +1,16 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your email! You can easily create a new return label through our website. Here’s how: 
+
+1. Log into your account at www.borrowlenses.com/Account.do 
+2. Go to “Order History” and to the right of your order, click the red link that says “Labels” 
+3. On the new page, click the black box that says “Create Replacement Label”. If you get an error message about the old tracking information no longer being valid, simply refresh the page which will reveal a “Print Label” button
+4. Print out, save or forward the label to your local UPS store
+
+I hope this helps! Please let me know if you have any other questions.
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

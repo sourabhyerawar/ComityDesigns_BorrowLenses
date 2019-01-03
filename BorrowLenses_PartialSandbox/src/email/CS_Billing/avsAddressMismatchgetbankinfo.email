@@ -1,0 +1,37 @@
+Hi {!Contact.FirstName},  
+
+I’m so sorry to hear that you’re having trouble placing an order with us. Let me help get this resolved for you.
+
+It’s likely your order was declined because of an address mismatch (or an “AVS Mismatch” as the banks officially call it). An address mismatch happens when your billing address doesn’t 100% match the info your card provider has on file. This could be because you’ve:
+
+• recently updated your card
+• made a recent change to your billing address
+• used a smaller bank chain
+• placed the order outside the US
+ 
+After an address mismatch, the card provider lists the declined transaction as “pending” to guard against fraudulent activity. And they’ll continue to decline further attempts to place the order, to protect your money.
+
+We’ve found that many customer service reps at card companies don’t know the difference between a settled transaction and an authorized hold. They’ll tell you that it shows as a valid transaction. 
+ 
+If you see pending transactions, but never received an order confirmation, call your card provider and give them this authorization code: XXXXXXXXXX
+ 
+You can tell them something like this:
+
+“I tried to place an order on BorrowLenses.com at [time] on [date]. I had trouble entering my billing address and the order was declined, but the authorization remains on my account. I’d like to have this authorization removed right away; it won’t be charged against. I’ve spoken to BorrowLenses who gave me an authorization code for this transaction. Can you help me get the authorization released?”
+ 
+If your card company needs more details to resolve the issue, ask them for:
+
+1. A fax number for us to send them an Authorization Release document
+2. Any additional details they require from the merchant, BorrowLenses, to release the hold 
+
+Once you send us that info, we’ll fax over an Authorization Release instructing them to drop all pending transactions immediately. 
+
+If the issue doesn’t need immediate attention, the transactions will disappear within 1-5 business days, depending on your card provider. 
+
+I hope this helps clear up the issues you’ve been experiencing. If there’s anything else I can do to help, just shout!
+
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

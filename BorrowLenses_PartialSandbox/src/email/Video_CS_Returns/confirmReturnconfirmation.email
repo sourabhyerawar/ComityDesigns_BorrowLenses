@@ -1,0 +1,10 @@
+Hi {!Contact.FirstName},  
+
+Your recent order XXXX has returned to us back in house and everything is in good condition. Thanks for taking care of our gear!
+
+Best,
+ 
+{!Case.OwnerFirstName}
+Video Customer Service Dept. 
+Video@BorrowLenses.com
+(844) 853-6737 x3

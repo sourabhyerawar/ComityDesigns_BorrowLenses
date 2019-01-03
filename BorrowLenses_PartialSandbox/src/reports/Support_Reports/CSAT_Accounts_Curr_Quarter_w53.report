@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Average</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>GetFeedback_Aut__Survey__c.GetFeedback_Aut__Responses__r$Average_CSAT_Score__c</column>
+        </chartSummaries>
+        <chartType>VerticalColumn</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>GetFeedback_Aut__Survey__c.GetFeedback_Aut__Responses__r$GetFeedback_Aut__Account__c</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <title>CSAT - Accounts (Curr. Quarter)</title>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>GetFeedback_Aut__Survey__c.GetFeedback_Aut__Responses__r$Name</field>
+    </columns>
+    <columns>
+        <field>GetFeedback_Aut__Survey__c.GetFeedback_Aut__Responses__r$GetFeedback_Aut__Case__c</field>
+    </columns>
+    <columns>
+        <field>GetFeedback_Aut__Survey__c.GetFeedback_Aut__Responses__r$CaseOwnerForTheResponse__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>GetFeedback_Aut__Survey__c.GetFeedback_Aut__Responses__r$Average_CSAT_Score__c</field>
+    </columns>
+    <description>CSAT - Accounts (Curr. Quarter)</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>GetFeedback_Aut__Survey__c.GetFeedback_Aut__Responses__r$GetFeedback_Aut__Account__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>CSAT - Accounts (Curr. Quarter)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Customer_Responses__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>GetFeedback_Aut__Survey__c.GetFeedback_Aut__Responses__r$GetFeedback_Aut__CompletionDate__c</dateColumn>
+        <interval>INTERVAL_CURRENTQ</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your interest in renting with us! Currently, we don’t have the [XXXX] available for rent. However, I’ll forward your request to our buying department and see if they might purchase these items in the future.  
+
+Thanks for your email and have an awesome day!
+
+ Best,
+
+{!Case.OwnerFirstName}
+Customer Service Dept.
+BorrowLenses.com

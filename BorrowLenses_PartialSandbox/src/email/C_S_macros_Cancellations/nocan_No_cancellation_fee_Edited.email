@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+
+Thanks for emailing! As requested, I’ve cancelled your order and sent you a new confirmation email. Since your order was cancelled more than 24 hours before the ship date, the entire cost of your rental will be returned to your card shortly. Please know the time this will take depends on your bank’s processing speediness. 
+
+If you have any questions, please let me know. I hope you have a great day!
+ 
+Best,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BL_Support_Letterhead</letterhead>
+    <name>(pora) PO Request Approved</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName}, 
+
+I’m pleased to let you know that your request for purchase order billing has been approved!
+
+If you haven’t done so already, please head to our website (borrowlenses.com) and create an account. Then reply to this email with the email address linked to your account and I’ll add the PO option. From then on, you can place orders on our site using a PO number instead of a credit card. Please note that we require a PO number to process orders for billing purposes. Our Accounts Payable team will include this number on your invoice.
+
+Please let me know if you have any questions. I look forward to working with you!
+
+Best,
+
+{!Case.OwnerFirstName}
+BorrowLenses.com Purchase Order Accounts
+accounts@BorrowLenses.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

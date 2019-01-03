@@ -1,0 +1,9 @@
+Hi {!Contact.FirstName},  
+ 
+Thanks for your suggestion! Unfortunately, we don’t currently carry any [XXX]. However, we’re constantly expanding our inventory, so we may stock it in the future. I’ll forward your request to our buying department for consideration. 
+ 
+Thanks and have a good one!
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I have left you a voicemail in regards to your [issue] with the [item] in your rental [xxxxxx].  I am sorry to hear about the huge inconvenience this has caused!  I have found a replacement for, [subpart or item].  I would be happy to overnight you this for arrival [day/time].  I would also like to discuss compensation with you in regards to the lost time on your rental due to this problem.  Please contact me at your earliest convenience to let me know how you would like to proceed.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

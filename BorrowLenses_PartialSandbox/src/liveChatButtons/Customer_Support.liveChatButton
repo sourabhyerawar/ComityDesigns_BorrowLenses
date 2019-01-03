@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatButton xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <autoGreeting>Hey there {!LiveAgent_VisitorName}, thanks for chatting with us today! I&apos;m reading over your notes and will be ready to assist you in just a few moments.</autoGreeting>
+    <chasitorIdleTimeout>300</chasitorIdleTimeout>
+    <chasitorIdleTimeoutWarning>120</chasitorIdleTimeoutWarning>
+    <customAgentName>{!User_FirstName}</customAgentName>
+    <deployments/>
+    <enableQueue>false</enableQueue>
+    <isActive>true</isActive>
+    <label>Customer Support</label>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
+    <optionsHasChasitorIdleTimeout>true</optionsHasChasitorIdleTimeout>
+    <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
+    <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
+    <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
+    <preChatFormPage>LiveAgentPreChatCustomerSupport</preChatFormPage>
+    <routingType xsi:nil="true"/>
+    <site>Support</site>
+    <type>Standard</type>
+    <windowLanguage>en_US</windowLanguage>
+</LiveChatButton>

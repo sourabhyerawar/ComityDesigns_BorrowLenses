@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Support</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>Help</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>helpqa@borrowlenses.com</replyToEmail>
+            <senderEmail>sourabhy+123@comitydesigns.com</senderEmail>
+            <senderName>Help</senderName>
+            <template>Support/X1_Case_Acknowledgement</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>Photo</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>vipqa@borrowlenses.com</replyToEmail>
+            <senderEmail>sourabhy+123@comitydesigns.com</senderEmail>
+            <senderName>Photo</senderName>
+            <template>Support/X1_Case_Acknowledgement</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>Photo VIP</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>photovipqa@borrowlenses.com</replyToEmail>
+            <senderEmail>sourabhy+123@comitydesigns.com</senderEmail>
+            <senderName>Photo VIP</senderName>
+            <template>Support/X1_Case_Acknowledgement</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>PO Accounts</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>accountsqa@borrowlenses.com</replyToEmail>
+            <senderEmail>sourabhy+123@comitydesigns.com</senderEmail>
+            <senderName>PO Accounts</senderName>
+            <template>Support/X1_Case_Acknowledgement</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>Recovery</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>collectionsqa@borrowlenses.com</replyToEmail>
+            <senderEmail>sourabhy+123@comitydesigns.com</senderEmail>
+            <senderName>Recovery</senderName>
+            <template>Support/X1_Case_Acknowledgement</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>Repair</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>repairqa@borrowlenses.com</replyToEmail>
+            <senderEmail>sourabhy+123@comitydesigns.com</senderEmail>
+            <senderName>Repair</senderName>
+            <template>Support/X1_Case_Acknowledgement</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>Verification</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>verifyqa@borrowlenses.com</replyToEmail>
+            <senderEmail>sourabhy+123@comitydesigns.com</senderEmail>
+            <senderName>Verification</senderName>
+            <template>Support/X1_Case_Acknowledgement</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>Video</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>videoqa@borrowlenses.com</replyToEmail>
+            <senderEmail>sourabhy+123@comitydesigns.com</senderEmail>
+            <senderName>Video</senderName>
+            <template>Support/X1_Case_Acknowledgement</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.OwnerId</field>
+                <operation>equals</operation>
+                <value>Video VIP</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Support</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>videovipqa@borrowlenses.com</replyToEmail>
+            <senderEmail>sourabhy+123@comitydesigns.com</senderEmail>
+            <senderName>Video VIP</senderName>
+            <template>Support/X1_Case_Acknowledgement</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

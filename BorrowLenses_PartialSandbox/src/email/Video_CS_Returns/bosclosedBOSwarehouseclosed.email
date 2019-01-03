@@ -1,0 +1,12 @@
+Hi {!Contact.FirstName},  
+
+We're emailing because we attempted to reach you by phone to notify you that our Waltham HQ has been closed today due to the incoming snow storm. Please know that we will be open tomorrow for you to pickup your order then, if that would work for you. Please call us as soon as possible or respond to this email with how you wish us to proceed. 
+
+We apologize for the inconvenience, and appreciate your understanding.
+
+Kindest Regards,  
+
+{!Case.OwnerFirstName}
+Video Customer Service Dept. 
+Video@BorrowLenses.com
+(844) 853-6737 x3

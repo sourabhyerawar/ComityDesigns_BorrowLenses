@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thank you for your (email / order note)! I've sent along your request to our inventory team. We’ll make every effort to charge up your rental’s batteries so you’re ready to start shooting when your gear arrives! 
+
+That said, there are times when gear arrives to us right before we need to ship it so we're not able to fully charge the batteries without delaying your shipment. I always suggest plugging everything in when your rental arrives, just in case.
+
+I hope this helps. Just shout if I there's anything else I can do for you!  
+
+Thanks,
+
+{!Case.OwnerFirstName}
+Customer Service Dept.
+BorrowLenses.com

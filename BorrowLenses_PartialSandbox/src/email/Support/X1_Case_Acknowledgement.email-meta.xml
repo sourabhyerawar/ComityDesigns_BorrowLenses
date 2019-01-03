@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent to Customer when Case is created.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>1. Case Acknowledgement</name>
+    <style>freeForm</style>
+    <subject>Thanks for reaching out! We’ve opened a support case for you: {!Case.CaseNumber} {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thanks for dropping us a line! Just a quick heads up to let you know we received your message and created a case that you can use any time you want to connect with our team on this issue (ID: {!Case.CaseNumber}). One of our expert staff will be in touch with you soon to help out.
+
+Look for our follow up shortly!
+
+
+Best,
+
+BorrowLenses Support Team
+(844) 853-6737
+www.borrowlenses.com
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},  
+ 
+It's no trouble at all! I’ll gladly make those changes for you. I’ve gone ahead and swapped the discount codes for you, since we can’t combine promotional codes together. I’ve also sent you a new invoice that details the changes to your order. Please give the invoice a once-over to make sure everything is as it should be.
+
+If there’s anything else I can do to help, please let me know!
+
+Have a good one,
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

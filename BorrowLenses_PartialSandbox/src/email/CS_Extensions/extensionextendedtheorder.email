@@ -1,0 +1,9 @@
+Hi {!Contact.FirstName},  
+ 
+As requested, I’ve extended your order and sent you a new confirmation email. Please let me know if there’s anything else I can do for you!
+
+Have a good one! 
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(idr) Initial Deposit request</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+Thanks for your help as we verify your order for ship out! Our insurance underwriter has determined that we’ll need a deposit of $XX on file to continue with your order. Here’s how deposits work: we put an authorization hold (not an actual charge) on your card for the deposit amount and release it in full once the order returns to our office. Your account must have the requested funds available to place the hold. You’re welcome to use a different card for the deposit, as long as the name and billing address for the card matches what’s on your reservation.
+ 
+I’d love to accommodate your rental request, so please let me know how you’d like to move forward.
+ 
+ Best,
+ 
+{!Case.OwnerFirstName}
+ BorrowLenses.com Verifications Team
+ verify@borrowlenses.com
+ (844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(sdl) Sent DocumentsLate</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+ 
+Thanks for sending your verification documents. Unfortunately, they were sent too late for yesterday&apos;s shipment, so we were unable to get your order out on time. If we keep this order on Standard Shipping, you’ll receive it on XX/XX/XX. The other option is to have it shipped overnight so you get it on your original requested delivery date, XX/XX/XX. However, you would be responsible for the overnight shipping costs. 
+
+Please let me know how you’d like to move forward.
+ 
+ Best,
+ 
+{!Case.OwnerFirstName}
+BorrowLenses.com Verifications Team
+Verify@borrowlenses.com
+(844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

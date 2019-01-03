@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+ 
+I appreciate you clarifying the situation for me. After reviewing the notes and confirming with UPS that they didn’t hold the package for pick up as requested, I’m happy to offer a full refund. 
+ 
+I want to apologize on our partner’s behalf for causing you such an aggravating experience. While I can’t change what happened, I’ll do everything I can to make things right! I’ve instructed our billing department to give you a full refund of $XX.XX which will be processed within the next 24 hours. Depending on the speediness of your bank, it could take 2-5 business days for the refund to appear in your account.
+
+Please let me know if there’s anything else I can help you with, or if you have any questions.
+
+ Kindly, 
+ 
+ {!Case.OwnerFirstName}
+ Customer Service Dept.
+ BorrowLenses.com

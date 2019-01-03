@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+Thank you for your patience while we conduct our investigation into your rental.  We are in the process of receiving your order and having it tested by our Technicians.  As soon as we have any additional information regarding the [ISSUE] on your order I will contact you as soon as possible.  In the meantime if you should have any additional questions or concerns please do not hesitate to contact me directly.
+
+Best Regards,
+
+{!Case.OwnerFirstName}
+VIP Department
+BorrowLenses.com
+
+phone: Vip Dept: 844-853-6737 x8
+email: vip@borrowlenses.com
+Monday-Friday 7am-6pm PDT

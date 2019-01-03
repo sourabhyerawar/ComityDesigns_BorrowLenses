@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Support_Letterhead</letterhead>
+    <name>(ddc) Declined - Credit</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},  
+
+I wanted to let you know that we tried to take a deposit authorization this morning, but your card was unfortunately declined. After taking a closer look, it appears the transaction has been declined by your card provider. To clear this up and move forward with your order, please call the customer service number on the back of your card and ask why the transaction is being declined. To keep this order on time, you’ll need to handle this by 4pm (your time zone).
+
+Please let me know when we can try the deposit again. I look forward to hearing from you!
+
+Thanks,
+ 
+ {!Case.OwnerFirstName}
+ BorrowLenses.com Verifications Team
+ verify@borrowlenses.com
+ (844) 853-6737 x4</textOnly>
+    <type>html</type>
+</EmailTemplate>

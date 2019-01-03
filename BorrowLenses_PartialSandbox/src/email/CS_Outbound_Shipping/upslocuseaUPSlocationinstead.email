@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},  
+
+I wanted to let you know that we are unable to relay order notes regarding delivery to the carrier unfortunately.You might consider receiving your package at a UPS facility where you can pick it up more on your schedule. 
+
+I've located a nearby UPS store, if it would be convenient for you, I can change the delivery info on you order, and you can pick up your order there.
+
+[store info]
+
+Please let me know your preference, and I am happy to make the changes for you. 
+
+Have a great day!
+{!Case.OwnerFirstName}
+BorrowLenses.com

@@ -1,0 +1,9 @@
+Hi {!Contact.FirstName},  
+ 
+Attached is your UPS return shipping label. Please print and put it on the box (covering all old labels) to ship back to us. If there’s anything else I can do to help, please let me know!
+
+Thanks and have an awesome day.
+ 
+{!Case.OwnerFirstName}
+Customer Service Dept.
+BorrowLenses.com
